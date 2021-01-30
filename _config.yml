@@ -9,7 +9,7 @@ googleplus_username: google
 head-title: Jiaolong 's Blog
 title: Jiaolong 's Blog
 
-baseurl: "/Jiaolong-Blog"    # the subpath of your site, "/blog"
+baseurl: "/"    # the subpath of your site, "/blog"
 url: ""
 
 # footer 
