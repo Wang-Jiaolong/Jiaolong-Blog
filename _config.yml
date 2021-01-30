@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: blog.jiaolong.space
+url: https://blog.jiaolong.space
 date_format: "ordinal"
 title: Jiaolong
 subtitle: "Stay Hungry, Stay Foolish."
