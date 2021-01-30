@@ -1,12 +1,10 @@
 ---
 layout: post
 title: 为什么Web项目默认打开「index.jsp」文件
-date: 2021-01-01
-category: "JavaWeb"
-tags: [JavaWeb]
-author: Lambda
-comment: false
-published: true
+categories: JavaWeb
+description: Web项目默认打开'index.jsp'文件
+keywords: JavaWeb
+topmost: false
 ---
 
 > 在JavaWeb项目里，启动项目时，会默认打开`index.jsp`或`index.html`。

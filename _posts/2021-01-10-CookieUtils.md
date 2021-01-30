@@ -1,11 +1,10 @@
 ---
 layout: post
 title: CookieUtils-工具类
-date: 2021-01-01
-category: "Java"
-tags: [Java]
-comment: false
-published: false
+categories: Utils
+description: CookieUtils
+keywords: Java,Utils
+topmost: false
 ---
 
 # 简单工具类-CookieUtils

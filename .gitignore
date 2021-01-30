@@ -1,5 +1,9 @@
+_site/
+*.sw[po]
+*.~vsd
+\#*\#
 *~
-.sass-cache/
-_site
-google-analytics.js
-.env
+.DS_Store
+Gemfile.lock
+.vscode/
+.jekyll-metadata

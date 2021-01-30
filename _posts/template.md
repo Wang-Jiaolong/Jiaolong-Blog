@@ -1,12 +1,10 @@
 ---
 layout: post
-title: An example post
-date: 2021-01-01
-category: "readme"
-tags: [demo]
-author: Lambda
-comment: false
-published: 
+title: template page
+categories: [cate1, cate2]
+description: some word here
+keywords: keyword1, keyword2
+topmost: false
 ---
 
 Content here
