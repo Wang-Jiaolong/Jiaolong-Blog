@@ -9,7 +9,7 @@ googleplus_username: google
 head-title: Jiaolong 's Blog
 title: Jiaolong 's Blog
 
-baseurl: "/materialize-jekyll"    # the subpath of your site, "/blog"
+baseurl: "/Jiaolong-Blog"    # the subpath of your site, "/blog"
 url: ""
 
 # footer 
