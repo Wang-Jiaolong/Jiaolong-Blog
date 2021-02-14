@@ -6,9 +6,37 @@ description: Maven
 keywords: Maven
 ---
 
-# Template
+# 使用 Maven 构建应用
 
-## pom.xml
+## Maven安装配置
+
+### 配置环境
+
+- 下载 `Maven.zip` ：http://maven.apache.org/download.cgi
+- 添加 `MAVEN_HOME` 环境变量到 Windows 环境变量，并将其指向你的 Maven 文件夹。![image-20210214101850032](https://i.loli.net/2021/02/14/Ww3hxnpsqdiGKto.png)
+- 添加`%MAVEN_HOME%\bin` 到 `PATH` ![image-20210214102112777](https://i.loli.net/2021/02/14/o4WHZaDwVr1RJXY.png)
+- 使用`mvn -version`验证：![image-20210214102237029](https://i.loli.net/2021/02/14/CiADJV7FzT2Hr6x.png)
+
+### 仓库
+
+Maven 的本地资源库是用来存储所有项目的依赖关系(插件 Jar 和其他文件，这些文件被 Maven 下载)到本地文件夹。很简单，当你建立一个 Maven 项目，所有相关文件将被存储在你的 Maven 本地仓库。
+
+默认情况下，Maven 的本地资源库默认为 `.m2` 目录文件夹：
+
+- Unix/Mac OS X：`~/.m2`
+- Windows：`C:\Documents and Settings\{your-username}\.m2`
+
+通常情况下，可改变默认的 `.m2` 目录下的默认本地存储库文件夹到其他更有意义的名称，例如， maven-repo 找到 `{M2_HOME}\conf\setting.xml`, 更新 `localRepository` 到其它名称。
+
+![image-20210214102555097](https://i.loli.net/2021/02/14/Ajv4INEZCQ5wzDK.png)
+
+执行之后，新的 Maven 本地存储库现在改为 `D:/apache-maven-3.5.2/repo`
+
+![image-20210214102622855](https://i.loli.net/2021/02/14/Dra2CAOzi9lojKV.png)
+
+## Template
+
+### pom.xml
 
 ~~~xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -21,12 +49,10 @@ keywords: Maven
     <artifactId>name</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>war</packaging>
-
-
 </project>
 ~~~
 
-## Maven Repository
+###  Maven Repository
 
 ~~~xml
 <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->

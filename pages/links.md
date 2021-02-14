@@ -8,7 +8,9 @@ menu: 链接
 permalink: /links/
 ---
 
-> God made relatives. Thank God we can choose our friends.
+# My projects
+
+> Something useless but interesting
 
 <ul>
 {% for link in site.data.links %}
@@ -18,11 +20,24 @@ permalink: /links/
 {% endfor %}
 </ul>
 
-> 友情链接
+# 常用网站
+
+> Official Website
 
 <ul>
 {% for link in site.data.links %}
   {% if link.src == 'www' %}
+  <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+
+> Online Tools
+
+<ul>
+{% for link in site.data.links %}
+  {% if link.src == 'tool' %}
   <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
   {% endif %}
 {% endfor %}
