@@ -34,7 +34,57 @@ Maven 的本地资源库是用来存储所有项目的依赖关系(插件 Jar �
 
 ![image-20210214102622855](https://i.loli.net/2021/02/14/Dra2CAOzi9lojKV.png)
 
+## Maven 应用
+
+## POM 的例子
+
+```xml
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+   http://maven.apache.org/xsd/maven-4.0.0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>com.lusifer</groupId>
+   <artifactId>project</artifactId>
+   <version>1.0</version>
+<project>
+```
+
+要注意的是，每个项目只有一个 POM 文件
+
+- 所有的 POM 文件要项目元素必须有三个必填字段: groupId，artifactId，version
+- 在库中的项目符号是：`groupId:artifactId:version`
+- `pom.xml` 的根元素是 project，它有三个主要的子节点。
+
+| 节点       | 描述                                                         |
+| ---------- | ------------------------------------------------------------ |
+| groupId    | 这是项目组的编号，这在组织或项目中通常是独一无二的。 例如，一家银行集团 `com.company.bank` 拥有所有银行相关项目。 |
+| artifactId | 这是项目的 ID。这通常是项目的名称。 例如，`consumer-banking`。 除了 groupId 之外，artifactId 还定义了 artifact 在存储库中的位置。 |
+| version    | 这是项目的版本。与 groupId 一起使用，artifact 在存储库中用于将版本彼此分离。 例如：`com.company.bank:consumer-banking:1.0`，`com.company.bank:consumer-banking:1.1` |
+
 ## Template
+
+### 目录结构
+
+Java Web 的 Maven 基本结构如下：
+
+```text
+├─src
+│  ├─main
+│  │  ├─java
+│  │  ├─resources
+│  │  └─webapp
+│  │      └─WEB-INF
+│  └─test
+│      └─java
+```
+
+src：源码目录
+
+- `src/main/java`：Java 源码目录
+- `src/main/resources`：资源文件目录
+- `src/main/webapp`：Web 相关目录
+- `src/test`：单元测试
 
 ### pom.xml
 
@@ -51,6 +101,9 @@ Maven 的本地资源库是用来存储所有项目的依赖关系(插件 Jar �
     <packaging>war</packaging>
 </project>
 ~~~
+
+- `packaging`：打包方式，这里是 `war` 包，表示为 Java Web 应用程序
+- `dependencies`：项目依赖配置，整个项目生命周期中所需的依赖都在这里配置
 
 ###  Maven Repository
 
