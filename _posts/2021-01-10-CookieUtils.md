@@ -7,9 +7,7 @@ keywords: Java,Utils
 topmost: false
 ---
 
-# 简单工具类-CookieUtils
-
-> 用于实现 “记住我” 功能。
+> Cookie工具类
 
 ```java
 import java.io.UnsupportedEncodingException;
