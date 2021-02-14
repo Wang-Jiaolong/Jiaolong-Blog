@@ -39,3 +39,15 @@
 - name: RGB颜色对照表
   url:  https://tool.oschina.net/commons?type=3
   src: tool
+
+- name: 在线代码格式化
+  url:  https://tool.oschina.net/codeformat/html
+  src: tool
+
+- name: JSON在线编辑器
+  url: https://www.bejson.com/jsoneditoronline
+  src: tool
+
+- name: 二维码生成器
+  url: https://cli.im/
+  src: tool
