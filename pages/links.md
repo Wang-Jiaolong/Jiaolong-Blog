@@ -8,7 +8,7 @@ menu: 链接
 permalink: /links/
 ---
 
-# My projects
+# My Projects
 
 > Something useless but interesting
 
