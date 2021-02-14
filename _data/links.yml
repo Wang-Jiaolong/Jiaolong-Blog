@@ -36,3 +36,6 @@
   url:  http://gitd.cc/
   src: tool
 
+- name: RGB颜色对照表
+  url:  https://tool.oschina.net/commons?type=3
+  src: tool
