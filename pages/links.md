@@ -15,7 +15,7 @@ permalink: /links/
 <ul>
 {% for link in site.data.links %}
   {% if link.src == 'life' %}
-  <li><a href="{{ link.url }}" target="_blank" style="color: #824d7c">{{ link.name}}</a></li>
+  <li><a href="{{ link.url }}" target="_blank" style="color: gray">{{ link.name}}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
@@ -27,7 +27,7 @@ permalink: /links/
 <ul>
 {% for link in site.data.links %}
   {% if link.src == 'www' %}
-  <li><a href="{{ link.url }}" target="_blank" style="color: #824d7c">{{ link.name}}</a></li>
+  <li><a href="{{ link.url }}" target="_blank" style="color: gray">{{ link.name}}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
@@ -38,7 +38,7 @@ permalink: /links/
 <ul>
 {% for link in site.data.links %}
   {% if link.src == 'tool' %}
-  <li><a href="{{ link.url }}" target="_blank" style="color: #824d7c">{{ link.name}}</a></li>
+  <li><a href="{{ link.url }}" target="_blank" style="color: gray">{{ link.name}}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
