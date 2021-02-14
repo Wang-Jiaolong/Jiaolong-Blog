@@ -97,6 +97,40 @@ public class EmailSendUtils {
   POP3服务器地址:pop.tom.com（端口：110）
   SMTP服务器地址:smtp.tom.com（端口：25）
 
+
+
+| 邮箱                  | 方式 | 服务器地址             | 端口    |
+| --------------------- | ---- | ---------------------- | ------- |
+| **sohu.com**          | POP3 | pop3.sohu.com          | 110     |
+|                       | SMTP | smtp.sohu.com          | 25      |
+| **126邮箱**           | POP3 | pop3.126.com           | 110     |
+|                       | SMTP | smtp.126.com           | 25      |
+| **139邮箱**           | POP3 | pop3.139.com           | 110     |
+|                       | SMTP | smtp.139.com           | 25      |
+| **163.com**           | POP3 | pop3.163.com           | 110     |
+|                       | SMTP | smtp.163.com           | 25      |
+| **QQ邮箱**            | POP3 | pop3.qq.com            | 110     |
+|                       | SMTP | smtp.qq.com            | 25      |
+| **QQ企业邮箱**        | POP3 | pop.exmail.qq.com      | 995     |
+|                       | SMTP | smtp.exmail.qq.com     | 587/465 |
+| **Foxmail**           | POP3 | pop3.foxmail.com       | 110     |
+|                       | SMTP | smtp.foxmail.com       | 25      |
+| **china.com**         | POP3 | pop3.china.com         | 110     |
+|                       | SMTP | smtp.china.com         | 25      |
+| **yahoo.com**         | POP3 | pop.mail.yahoo.com     | 110     |
+|                       | SMTP | smtp.mail.yahoo.com    | 25      |
+| **yahoo.com.cn**      | POP3 | pop.mail.yahoo.com.cn  | 110     |
+|                       | SMTP | smtp.mail.yahoo.com.cn | 25      |
+| **HotMail**           | POP3 | pop3.live.com          | 110     |
+|                       | SMTP | smtp.sohu.com          | 25      |
+| **gmail(google.com)** | POP3 | pop.gmail.com          | 995     |
+|                       | SMTP | smtp.gmail.com         | 587     |
+| **tom.com**           | POP3 | pop.tom.com            | 110     |
+|                       | SMTP | smtp.tom.com           | 25      |
+
+
+
+
 ## Controller层
 
 ~~~java
