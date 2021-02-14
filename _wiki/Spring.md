@@ -54,6 +54,17 @@ keywords: Spring
 
 > 若使用此方法，`springContext`必须放置第一行，首先注入。
 
+- id：在容器中查找Bean（对象）的id(唯一、且不能以/开头)
+-  class：bean（对象）的完整类名
+-  name：在容器中查找Bean（对象）的名字(唯一、允许以/开头、允许多个值，多个值之间用逗号或空格隔开)
+-  scope:(singleton|prototype)默认是singleton
+  - singleton(单例模式)：在每个Spring IoC容器中一个bean定义对应一个对象实例
+  - prototype(原型模式/多例模式)：一个bean（对象）定义对应多个对象实例
+- abstract：将一个bean定义成抽象bean(抽象bean是不能实例化的),抽象类一定要定义成抽象bean,非抽象类也可以定义成抽象bean
+- parent：指定一个父bean(必须要有继承关系才行)
+- init-method：指定bean对象（）的初始化方法
+- 使用有参数构造方法创建javaBean（java对象）：constructor-arg
+
 ## 方法二：注解
 
 **`spring-context.xml`**
@@ -92,13 +103,6 @@ keywords: Spring
 > - 若注解与XML同用，XML的优先级高于注解。这样的好处是，需要对某个Bean做修改，只需修改配置文件即可。
 
 
-
-```xml
-<!-- 使用 Annotation 自动注册 Bean，在主容器中不扫描 @Controller 注解，在 SpringMVC 中只扫描 @Controller 注解。-->
-<context:component-scan base-package="com.funtl.my.shop">
-    <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
-</context:component-scan>
-```
 
 ```xml
 <!-- 使用 Annotation 自动注册 Bean，在主容器中不扫描 @Controller 注解，在 SpringMVC 中只扫描 @Controller 注解。-->
