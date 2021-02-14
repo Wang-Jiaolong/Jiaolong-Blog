@@ -17,6 +17,18 @@ topmost: false
     <bean id="emailSendUtils" class="com.jiaolong.myshop.commons.utils.EmailSendUtils" />
 ~~~
 
+## 导入依赖
+
+~~~xml
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-email</artifactId>
+    <version>1.5</version>
+</dependency>
+~~~
+
+
+
 ## 工具类
 
 `EmailSendUtils`
