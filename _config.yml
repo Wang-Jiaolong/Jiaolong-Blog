@@ -1,7 +1,7 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl:
+baseurl: https://blog.jiaolong.space
 url: https://blog.jiaolong.space
 date_format: "ordinal"
 title: Jiaolong
@@ -59,9 +59,9 @@ navs:
     href: /categories/
     label: 分类
 
--
-  href: /archives/
-  label: 归档
+  -
+    href: /archives/
+    label: 归档
 
   -
     href: /open-source/
