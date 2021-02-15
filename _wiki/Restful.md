@@ -1,5 +1,5 @@
 ---
-jsonlayout: wiki
+layout: wiki
 title: 「 RESTful 」
 categories: RESTful 
 description: RESTful 风格
