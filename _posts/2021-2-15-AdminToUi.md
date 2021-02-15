@@ -137,6 +137,14 @@ public class MyTest {
 
 
 
+
+
+其中Cookie及User-Agent查看方式：
+
+![image-20210215174948453](https://i.loli.net/2021/02/15/M1Ulnu2tAR74IPo.png)
+
+
+
 ### 创建 HttpPost 请求
 
 案例代码如下：
