@@ -128,3 +128,11 @@ class TbContent {
 ~~~
 
 > json数据项要和实体类 属性一一对应，
+
+
+
+
+
+## Jackson工具类
+
+https://blog.jiaolong.space/2021/02/15/JackonUtils/
