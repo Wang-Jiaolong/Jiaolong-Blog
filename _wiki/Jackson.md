@@ -1,9 +1,9 @@
 ---
 layout: wiki
-title: 「 Jackon 」
+title: 「 Jackson 」
 categories: Java框架
-description: Jackon
-keywords: Jackon， Java
+description: Jackson
+keywords: Jackson， Java
 ---
 
 > Jackson 是一个简单基于 Java 应用库，Jackson 可以轻松的将 Java 对象转换成 json 对象和 xml 文档，同样也可以将 json、xml 转换成 Java 对象。Jackson 所依赖的 jar 包较少，简单易用并且性能也要相对高些，并且 Jackson 社区相对比较活跃，更新速度也比较快。
