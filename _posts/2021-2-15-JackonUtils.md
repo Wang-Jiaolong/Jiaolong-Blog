@@ -7,7 +7,7 @@ keywords: Utils, Java
 topmost: false
 ---
 
-> Jackson工具类
+> Json和List、Map之间的相互转换
 
 
 
