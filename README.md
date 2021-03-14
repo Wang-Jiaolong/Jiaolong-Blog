@@ -1,7 +1,7 @@
 # 欢迎来到我的个人博客。
 > Welcome to my Blog.
 
-地址：https://jiaolong.space
+地址：https://blog.jiaolong.space
 
 本博客页面根据 [码志](https://github.com/mzlogin/mzlogin.github.io) 为模板，作简单修改
 
