@@ -168,6 +168,16 @@ src：源码目录
     <artifactId>commons-lang3</artifactId>
     <version>3.8.1</version>
 </dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.16</version>
+    <scope>provided</scope>
+</dependency>
+
 ~~~
 
 
