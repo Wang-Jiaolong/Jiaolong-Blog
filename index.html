@@ -45,6 +45,15 @@ comments: false
 </section>
 
 
+
+
+
+
+
+<!-- /.banner -->
+<section class="container content">
+    <div class="columns">
+        <div class="column two-thirds" >
       <div class="target" id="target-1">
             <div>
                 <div><img src="{{ assets_base_url }}/images/index/t1.png"></div>
@@ -52,7 +61,7 @@ comments: false
                 <div><img src="{{ assets_base_url }}/images/index/t3.png"></div>
                 <div><img src="{{ assets_base_url }}/images/index/t4.png"></div>
             </div>
-    </div>
+      </div>
 
             <script>
             $( "#target-1" ).HappyImage({
@@ -63,11 +72,7 @@ comments: false
 
 
 
-
-<!-- /.banner -->
-<section class="container content">
-    <div class="columns">
-        <div class="column two-thirds" >
+          
             <ol class="repo-list">
               {% for post in site.posts %}
               {% if paginator.page == 1 %}
