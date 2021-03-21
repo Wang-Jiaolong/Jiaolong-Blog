@@ -20,7 +20,7 @@ permalink: /about/
 
 <ul>
 {% for website in site.data.social %}
-<li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
+{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a>
 {% endfor %}
 <!-- {% if site.url contains 'jiaolong.space' %}
 <li>
