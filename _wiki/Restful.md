@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: 「 RESTful 」
+title: RESTful
 categories: RESTful 
 description: RESTful 风格
 keywords: RESTful 

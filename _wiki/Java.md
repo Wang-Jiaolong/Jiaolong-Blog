@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: 「 Java 」
+title: Java
 categories: Java
 description: Java
 keywords: Java

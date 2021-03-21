@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: 「 Jackson 」
+title: Jackson
 categories: Java框架
 description: Jackson
 keywords: Jackson， Java

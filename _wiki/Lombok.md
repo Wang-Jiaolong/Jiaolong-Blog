@@ -1,6 +1,6 @@
 ---
-layout: Lombok
-title: Wiki Template
+layout: Wiki
+title: Lombok
 categories: Lombok
 description: Lombok
 keywords: Lombok
