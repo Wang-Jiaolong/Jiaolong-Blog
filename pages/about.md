@@ -31,7 +31,7 @@ permalink: /about/
 
 
 ## Skill Keywords
-<div style="border: 0px solid;
+<div class="aboutme" style="border: 0px solid;
     filter: drop-shadow(1px 1px 5px rgba(0,0,0,.5));
     position: relative;
     transform: translate(-50%,0%);
