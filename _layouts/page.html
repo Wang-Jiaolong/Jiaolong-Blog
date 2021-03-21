@@ -41,12 +41,14 @@ layout: default
                     {% include comments.html %}
                 </div>
             </div>
+            {% if page.title ！= "About" %}
             <div class="column one-third">
                 {% include sidebar-search.html %}
                 {% include sidebar-categories-cloud.html %}
                 {% include sidebar-ad.html %}
                 {% include sidebar-popular-repo.html %}
             </div>
+            {% endif %}
         </div>
     </section>
     <!-- /section.content -->
