@@ -2,7 +2,7 @@
 layout: post
 title: JacksonUtils-Jackson工具类
 categories: Utils
-description: Jackson工具类
+description: Jackson工具
 keywords: Utils, Java
 topmost: false
 ---
