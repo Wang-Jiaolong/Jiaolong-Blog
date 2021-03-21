@@ -81,19 +81,20 @@ img {
 }
 
 ._bg {
-    background-color: red !important;
+    background-color: #3498d1b5 !important;
 }
 
 .swiper .cricle {
     height: 16px;
     position: absolute;
-    bottom: 0;
+    bottom: -15px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
+    z-index: 100;
 }
 
 .swiper .cricle li {
