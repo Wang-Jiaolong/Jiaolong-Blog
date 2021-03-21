@@ -22,12 +22,12 @@ window.addEventListener("load", function () {
     btns.style.display = "none";
     timer = setInterval(function () {
       rightbtn.click();
-    }, 2000);
+    }, 8000);
   }
 
   var timer = setInterval(function () {
     rightbtn.click();
-  }, 2000);
+  }, 8000);
   swiper.addEventListener("mouseenter", function () {
     // btns.style.display = "block";
     clearInterval(timer);
