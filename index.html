@@ -45,21 +45,21 @@ comments: false
 </section>
 
 
-      <div class="target" id="target-1">
-            <div>
-                <div><img src="{{ assets_base_url }}/images/index/t1.png"></div>
-                <div><img src="{{ assets_base_url }}/images/index/t2.png"></div>
-                <div><img src="{{ assets_base_url }}/images/index/t3.png"></div>
-                <div><img src="{{ assets_base_url }}/images/index/t4.png"></div>
-            </div>
-      </div>
-
-            <script>
-            $( "#target-1" ).HappyImage({
-              effect: "slide"
-            });
-          
-        </script>
+  <div class="swiper">
+    <ul class="pic">
+      <li class="now"><a href="#"><img src="./images/t1.png" alt="" /></a></li>
+      <li class="next"><a href="#"><img src="./images/t2.png" alt="" /></a></li>
+      <li><a href="#"><img src="./images/t3.png" alt="" /></a></li>
+      <li><a href="#"><img src="./images/t4.png" alt="" /></a></li>
+    </ul>
+    <ol class="cricle"></ol>
+    <div class="btns">
+      <a href="javascript:;" class="leftbtn" style="float: left; margin-left: 6px;"></a>
+      <a href="javascript:;" class="rightbtn" style="float: right; margin-right: 6px;"></a>
+    </div>
+    <div class="leftBox"></div>
+    <div class="rightBox"></div>
+  </div>
 
 
 
