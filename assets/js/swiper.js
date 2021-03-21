@@ -29,7 +29,7 @@ window.addEventListener("load", function () {
     rightbtn.click();
   }, 2000);
   swiper.addEventListener("mouseenter", function () {
-    btns.style.display = "block";
+    // btns.style.display = "block";
     clearInterval(timer);
     swiper.removeEventListener("mouseleave", leave);
     swiper.addEventListener("mouseleave", leave);
