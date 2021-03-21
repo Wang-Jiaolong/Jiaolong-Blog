@@ -9,6 +9,7 @@
     background: 0 0;
     box-shadow: none;
     -webkit-box-shadow: none
+    margin-top: 80px;
 }
 
 .home .site-header {
