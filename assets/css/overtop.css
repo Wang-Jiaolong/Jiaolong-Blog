@@ -146,7 +146,6 @@
 }
 .cd-primary-nav > ul a {
   /* target primary-nav links */
-  display: block;
   height: 50px;
   line-height: 50px;
   padding-left: 5%;
