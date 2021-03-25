@@ -136,7 +136,7 @@
 }
 .cd-primary-nav > ul {
   position: absolute;
-  z-index: 2;
+  z-index: 9999;
   top: 60px;
   left: 0;
   width: 100%;
