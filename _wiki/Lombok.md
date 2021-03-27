@@ -1,5 +1,5 @@
 ---
-layout: Wiki
+layout: wiki
 title: Lombok
 categories: Lombok
 description: Lombok
