@@ -2,7 +2,7 @@
 .cd-auto-hide-header {
   font-size: 1.6rem;
   position: fixed;
-  z-index: 2;
+  z-index: 999;
   top: 0;
   left: 0;
   width: 100%;
