@@ -6,6 +6,8 @@ description: Spring
 keywords: Spring
 ---
 
+> Spring是为了解决企业级因公开发的复杂性而创建的，简化开发
+
 # 一、Spring体系结构
 
 ![Spring的体系结构](https://i.loli.net/2021/01/08/omCJExvtg3FQ19f.gif)

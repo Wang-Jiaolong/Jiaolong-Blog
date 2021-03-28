@@ -140,3 +140,30 @@ Druid 提供了大量的监控数据，只需要在 `web.xml` 中配置一个 Se
 打开浏览器，输入：`http://localhost:8080/druid/index.html `浏览器显示效果如下：
 
 ![image-20210114162156458](https://i.loli.net/2021/01/14/LkQDZBmbaWGoFlA.png)
+
+
+
+
+
+# tk.mybatis
+
+Mybatis 与 Hibernate的一个很大的区别就是Mybatis所有的数据库操作语句都需要自己写，对于简单的单表操作来说是比较烦琐的。因此有人就开发了tk.mybatis插件，通过这个插件，你可以省略许多简单的单表数据库操作语句而直接调用相对应的dao方法。在SSM项目中配置和使用tk.mybatis插件的用法如下：
+1、在pom.xml文件中引入依赖
+
+```xml
+
+<tk.mybatis.verson>3.3.7</tk.mybatis.verson>
+<persistence.version>1.0</persistence.version>
+
+
+<dependency>
+    <groupId>tk.mybatis</groupId>
+    <artifactId>mapper</artifactId>
+    <version>${tk.mybatis.verson}</version>
+</dependency>
+<dependency>
+    <groupId>javax.persistence</groupId>
+    <artifactId>persistence-api</artifactId>
+    <version>${persistence.version}</version>
+</dependency>
+```
