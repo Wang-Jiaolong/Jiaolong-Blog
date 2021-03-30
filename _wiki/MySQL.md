@@ -44,6 +44,28 @@ ORDER BY field1 [ASC [DESC][默认 ASC]], [field2...] [ASC [DESC][默认 ASC]]
 
 
 
+**MySQL 拼音排序**
+
+如果字符集采用的是 gbk(汉字编码字符集)，直接在查询语句后边添加 ORDER BY：
+
+```SQL
+SELECT * 
+FROM runoob_tbl
+ORDER BY runoob_title;
+```
+
+如果字符集采用的是 utf8(万国码)，需要先对字段进行转码然后排序：
+
+```SQL
+SELECT * 
+FROM runoob_tbl
+ORDER BY CONVERT(runoob_title using gbk);
+```
+
+
+
+
+
 ## GROUP BY
 
 > GROUP BY 语句根据一个或多个列对结果集进行分组。
@@ -78,3 +100,19 @@ JOIN 按照功能大致分为如下三类：
 `MySQL LEFT JOIN`：MySQL left join 与 join 有所不同。 MySQL LEFT JOIN 会读取左边数据表的全部数据，即便右边表无对应数据。
 
 `MySQL RIGHT JOIN`：MySQL RIGHT JOIN 会读取右边数据表的全部数据，即便左边边表无对应数据。
+
+
+
+
+
+## UNION 操作符
+
+> MySQL UNION 操作符用于连接两个以上的 SELECT 语句的结果组合到一个结果集合中。多个 SELECT 语句会删除重复的数据。
+
+```sql
+SELECT 列名称 FROM 表名称 UNION SELECT 列名称 FROM 表名称 ORDER BY 列名称；
+SELECT 列名称 FROM 表名称 UNION ALL SELECT 列名称 FROM 表名称 ORDER BY 列名称；
+```
+
+- **DISTINCT:** 可选，删除结果集中重复的数据。默认情况下 UNION 操作符已经删除了重复数据，所以 DISTINCT 修饰符对结果没啥影响。
+- **ALL:** 可选，返回所有结果集，包含重复数据。
