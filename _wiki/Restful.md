@@ -82,25 +82,25 @@ RESTful API 的设计以资源为核心，每一个 URI 代表一种资源。因
 
 RESTful API 接口应该提供参数，过滤返回结果。其中，offset 指定返回记录的开始位置。一般情况下，它会结合 limit 来做分页的查询，这里 limit 指定返回记录的数量。
 
-```text
+```json
 【GET】  /{version}/{resources}/{resource_id}?offset=0&limit=20
 ```
 
 同时，orderby 可以用来排序，但仅支持单个字符的排序，如果存在多个字段排序，需要业务中扩展其他参数进行支持。
 
-```text
+```json
 【GET】  /{version}/{resources}/{resource_id}?orderby={field} [asc|desc]
 ```
 
 为了更好地选择是否支持查询总数，我们可以使用 count 字段，count 表示返回数据是否包含总条数，它的默认值为 false。
 
-```text
+```json
 【GET】  /{version}/{resources}/{resource_id}?count=[true|false]
 ```
 
 上面介绍的 offset、 limit、 orderby 是一些公共参数。此外，业务场景中还存在许多个性化的参数。我们来看一个例子。
 
-```text
+```json
 【GET】  /v1/categorys/{category_id}/apps/{app_id}?enable=[1|0]&os_type={field}&device_ids={field,field,…}
 ```
 
@@ -127,7 +127,7 @@ RESTful API 接口应该提供参数，过滤返回结果。其中，offset 指�
 
 当 RESTful API 接口出现非 2xx 的 HTTP 错误码响应时，采用全局的异常结构响应信息。
 
-```text
+```json
 HTTP/1.1 400 Bad Request
 Content-Type: application/json
 {
