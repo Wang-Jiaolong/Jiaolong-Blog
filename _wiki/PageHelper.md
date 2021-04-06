@@ -13,10 +13,17 @@ keywords: PageHelper
 
 # SpringBoot 中Mybatis分页插件PageHelper
 
+### 导入依赖
 
+      <!-- https://mvnrepository.com/artifact/com.github.pagehelper/pagehelper-spring-boot-starter -->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.2.12</version>
+        </dependency>
+### Controller
 
 ```Java
-@ApiOperation("分页查询用户信息")
 @GetMapping(value = "selectAll")
 public BaseResult findAllTopicByPage(int pageNum, int pageSize) {
     Page<Object> page = PageHelper.startPage(pageNum, pageSize);	//设置每页开始、大小
