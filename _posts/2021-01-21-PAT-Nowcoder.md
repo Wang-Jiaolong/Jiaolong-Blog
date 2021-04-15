@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 「PAT」-牛客网-乙级真题
+title: "「PAT」-牛客网-乙级真题"
 subtitle: " \"Hello World\""
 author:  "Jalen"
 header-img: "img/about-bg.jpg"
