@@ -1,10 +1,13 @@
 ---
 layout: post
-title: PAT-牛客网-乙级真题
-categories: PAT
-description: PAT-牛客网-乙级真题
-keywords: C
-topmost: false
+title: 「PAT」-牛客网-乙级真题
+subtitle: " \"Hello World\""
+author:  "Jalen"
+header-img: "img/about-bg.jpg"
+catalog: true
+tags:
+    - C
+	
 ---
 
 > **链接：**[PAT乙级(Basic Level)真题](https://www.nowcoder.com/pat/6/problems)

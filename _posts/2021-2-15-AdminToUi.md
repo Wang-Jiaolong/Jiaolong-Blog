@@ -1,10 +1,12 @@
 ---
-layout: post
-title: 后台与门户的通信问题
-categories: JavaWeb
-description: 后台与门户的通信问题
-keywords: JavaWeb
-topmost: false
+layout:     post
+title:      "「JavaWeb」后台与门户的通信问题"
+subtitle:   "后台管理仅复制维护数据库，门户不允许直接操作数据库，通过中间层，调用应用接口请求数据库信息，从而展示到页面。 "
+author:     "Jalen"
+header-img: "img/about-bg.jpg"
+catalog: true
+tags:
+    - JavaWeb
 ---
 
 > 后台与门户的通信过程

@@ -1,10 +1,10 @@
 ---
-title: "「IDEA」去掉IntelliJ IDEA生成的mybatis映射文件中黄色和绿色的背景"
-subtitle: "IntelliJ IDEA 打开 mybatis 的 xml 文件时，对应的 xml 文件中 sql 语句背景色总是有黄色或绿色的背景色。"
 layout: post
+title: "「IDEA」去掉mybatis映射文件中黄色和绿色的背景"
+subtitle: "IntelliJ IDEA 打开 mybatis 的 xml 文件时，对应的 xml 文件中 sql 语句背景色总是有黄色或绿色的背景色。"
 author: "Jalen"
-header-style: text
-hidden: false
+header-img: "img/about-bg.jpg"
+catalog: true
 tags:
   - IDEA
 ---

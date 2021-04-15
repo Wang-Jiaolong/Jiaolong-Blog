@@ -1,10 +1,12 @@
 ---
-layout: post
-title: JacksonUtils-Jackson工具类
-categories: Utils
-description: Jackson工具
-keywords: Utils, Java
-topmost: false
+layout:     post
+title:      "「Utils」Jackson工具类"
+subtitle:   "用于处理Json与其他格式的转化 "
+author:     "Jalen"
+header-img: "img/about-bg.jpg"
+catalog: true
+tags:
+    - Utils
 ---
 
 > Json和List、Map之间的相互转换

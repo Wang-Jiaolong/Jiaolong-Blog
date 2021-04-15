@@ -3,8 +3,8 @@ layout: post
 title: "「Mybatis」动态SQL字符比较异常"
 subtitle: "动态sql中单个字符串比较出现异常"
 author: "Jalen"
-header-style: text
-hidden: false
+header-img: "img/about-bg.jpg"
+catalog: true
 tags:
   - Mybatis
   - SpringBoot

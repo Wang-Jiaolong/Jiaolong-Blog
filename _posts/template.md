@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Hello 2015"
-subtitle:   " \"Hello World, Hello Blog\""
+title:      "「」"
+subtitle:   " "
 author:     "Jalen"
 header-img: "img/about-bg.jpg"
 catalog: true

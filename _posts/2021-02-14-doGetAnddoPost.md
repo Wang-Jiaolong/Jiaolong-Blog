@@ -1,10 +1,12 @@
 ---
-layout: post
-title: Servlet的doGet与doPost方法的区别与使用
-categories: JavaWeb
-description: The differences between doGet and doPost.
-keywords: doGet, doPost , JavaWeb
-topmost: false
+layout:     post
+title:      "Servlet的doGet与doPost方法的区别与使用"
+subtitle:   "Servlet的doGet与doPost方法的区别与使用 "
+author:     "Jalen"
+header-img: "img/about-bg.jpg"
+catalog: true
+tags:
+    - JavaWeb
 ---
 
 ## 一、调用方式

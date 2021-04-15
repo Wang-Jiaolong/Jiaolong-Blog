@@ -1,10 +1,12 @@
 ---
-layout: post
-title: EmailUtils-邮件工具类
-categories: Utils
-description: 用于实现发送邮件
-keywords: Utils,Java
-topmost: false
+layout:     post
+title:      "「Utils」EmailUtils-邮件工具类"
+subtitle:   "用于实现发送邮件 "
+author:     "Jalen"
+header-img: "img/about-bg.jpg"
+catalog: true
+tags:
+    - Utils
 ---
 
 > 用于实现发送邮件

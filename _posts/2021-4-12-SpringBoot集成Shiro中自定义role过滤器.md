@@ -1,10 +1,10 @@
 ---
+layout: post
 title: "「SprintBoot」集成Shiro中自定义role过滤器"
 subtitle: "问题背景：在做毕设中，使用`SpringBoot`+`vue`实现前后分离，在使用`Shiro`实现安全框架时，由于默认在未授权或未登录时会进行重定向操作，涉及跨域问题导致403，故需要自定义Filter重写方法，返回`Json`，代替重定向。"
-layout: post
 author: "Jalen"
-header-style: text
-hidden: false
+header-img: "img/about-bg.jpg"
+catalog: true
 tags:
   - SpringBoot
   - Shiro

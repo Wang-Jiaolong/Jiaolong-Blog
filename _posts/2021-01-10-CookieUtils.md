@@ -7,7 +7,6 @@ header-img: "img/about-bg.jpg"
 catalog: true
 tags:
   - Utils
-  - Java
 ---
 
 > Cookie工具类
