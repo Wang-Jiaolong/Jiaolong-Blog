@@ -1,9 +1,7 @@
-_site/
-*.sw[po]
-*.~vsd
-\#*\#
-*~
+_site
+node_modules
+npm-debug.log
 .DS_Store
-Gemfile.lock
-.vscode/
-.jekyll-metadata
+*/.DS_Store
+*/*/.DS_Store
+*.sh
