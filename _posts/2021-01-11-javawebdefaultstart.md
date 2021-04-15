@@ -1,8 +1,9 @@
 ---
 layout: post
 title: 为什么Web项目默认打开「index.jsp」文件
-categories: JavaWeb
 description: Web项目默认打开'index.jsp'文件
+header-img: "img/about-bg.jpg"
+categories: JavaWeb
 keywords: JavaWeb
 topmost: false
 ---

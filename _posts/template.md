@@ -1,11 +1,12 @@
 ---
+layout: post
 title: "「xx」Title"
 subtitle: "your describe"
-layout: post
+header-img: "img/about-bg.jpg"
 author: "Jalen"
 header-style: text
 hidden: false
-header-img: "img/about-bg.jpg"
+catalog: false
 tags:
   - tags
 ---
