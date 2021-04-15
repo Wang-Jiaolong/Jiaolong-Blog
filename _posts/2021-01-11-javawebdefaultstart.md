@@ -11,6 +11,8 @@ tags:
 
 > 在JavaWeb项目里，启动项目时，会默认打开`index.jsp`或`index.html`。
 
+----
+
 # 原因：
 
 tomcat启动时，会首先读取自带的web.xml文件（`tomcat`/`conf`/`web.xml`），该文件中存在以下配置
