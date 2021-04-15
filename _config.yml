@@ -13,9 +13,9 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     iwangjiaolong
-zhihu_username:     wang-jiaolong
-github_username:    Wang-Jiaolong
+weibo_username: iwangjiaolong
+zhihu_username:  wang-jiaolong
+github_username: Wang-Jiaolong
 # twitter_username:   Wang-Jiaolong
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
@@ -67,8 +67,8 @@ netease_comment: false
 
 
 # Analytics settings
-# Baidu Analytics 
- ba_track_id: e97d90582c20cf2e3acfe7cab03ec724
+ #Baidu Analytics 
+ ba_track_id: 'e97d90582c20cf2e3acfe7cab03ec724'
 
 # Google Analytics
 # ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
