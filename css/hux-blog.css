@@ -1617,6 +1617,8 @@ img::-moz-selection {
   max-width: 100%;
   height: auto;
   margin: 1.5em auto 1.6em auto;
+  box-shadow: 4px 4px 13px 5px #b7b7b7;
+  border-radius: 7px;
 }
 /* Hux Optimize UserExperience */
 .navbar-default .navbar-toggle:focus,
