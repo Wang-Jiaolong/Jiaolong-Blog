@@ -5,6 +5,8 @@ tags: IDEA
 
 > IntelliJ IDEA 打开 mybatis 的 xml 文件时，对应的 xml 文件中 sql 语句背景色总是有黄色或绿色的背景色。
 
+<!--more-->
+
 ---
 
 ### 1. 去掉 `No data sources configure` 警告
