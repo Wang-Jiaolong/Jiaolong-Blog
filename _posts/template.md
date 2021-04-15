@@ -1,14 +1,13 @@
 ---
-layout: post
-title: "「xx」Title"
-subtitle: "your describe"
+layout:     post
+title:      "Hello 2015"
+subtitle:   " \"Hello World, Hello Blog\""
+author:     "Jalen"
 header-img: "img/about-bg.jpg"
-author: "Jalen"
-header-style: text
-hidden: false
-catalog: false
+catalog: true
 tags:
-  - tags
+    - Life
+    - Meta
 ---
 
 Content here
