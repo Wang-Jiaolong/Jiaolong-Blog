@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "「Utils」CookieUtils-Cookie工具类"
-subtitle: "your describe"
+subtitle: "工具类"
 author: "Jalen"
-header-style: text
-hidden: false
+header-img: "img/about-bg.jpg"
+catalog: true
 tags:
   - Utils
   - Java
