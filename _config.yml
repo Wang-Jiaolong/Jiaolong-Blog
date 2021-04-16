@@ -92,6 +92,12 @@ featured-condition-size: 3              # A tag will be featured if the size of 
 
 
 
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+        
+
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
