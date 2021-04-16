@@ -33,7 +33,7 @@ layout: default
                     <li class="previous">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
                         Previous<br>
-                        <span>{{page.previous.title}}</span>
+                        <span style="white-space: nowrap;text-overflow: ellipsis;overflow: hidden;display: block;">{{page.previous.title}}</span>
                         </a>
                     </li>
                     {% endif %}
@@ -41,7 +41,7 @@ layout: default
                     <li class="next">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
                         Next<br>
-                        <span style="white-space: nowrap;text-overflow: ellipsis;overflow: hidden;">{{page.next.title}}</span>
+                        <span style="white-space: nowrap;text-overflow: ellipsis;overflow: hidden;display: block;">{{page.next.title}}</span>
                         </a>
                     </li>
                     {% endif %}
