@@ -22,7 +22,7 @@ tags:
 
 ```sql
 <if test="order == '+'">
-	---if同理
+	--if同理
 </if>
 ```
 
@@ -34,15 +34,15 @@ mybatis是使用的OGNL表达式来进行解析的，在OGNL的表达式中，'y
 
 ```sql
 <if test="order == '+'.toString()">
-	---
+	--
 </if>
 ```
 
 ### 解决方法二：
 
 ```sql
-<if test='order == "+"'> //双引在里，单引在外
-	---
+<if test='order == "+"'> --双引在里，单引在外
+	--
 </if>
 ```
 
