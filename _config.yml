@@ -95,7 +95,7 @@ featured-condition-size: 3              # A tag will be featured if the size of 
 collections:
   wikis:
     output: true
-    permalink: /wiki/:name
+    permalink:  /:wiki/:name
         
 
 # Progressive Web Apps
