@@ -54,7 +54,7 @@ mybatis是使用的OGNL表达式来进行解析的，在OGNL的表达式中，'y
 
 完整语句：
 
-```sql
+```mysql
 <choose>
     <when test="order == '+'.toString()">
         ORDER BY ${condition}
@@ -64,3 +64,4 @@ mybatis是使用的OGNL表达式来进行解析的，在OGNL的表达式中，'y
     </otherwise>
 </choose>
 ```
+
