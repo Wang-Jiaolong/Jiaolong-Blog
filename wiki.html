@@ -13,7 +13,7 @@ https://github.com/kitian616/jekyll-TeXt-theme
 {% include intro-header.html type='page' short=true %}
 
 <!-- Main Content -->
-{% for post in paginator.wikis %}
+{% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
@@ -24,17 +24,8 @@ https://github.com/kitian616/jekyll-TeXt-theme
             {{ post.subtitle }}
         </h3>
         {% endif %}
-        <div class="post-content-preview">
-            {% if post.lang == 'en' %}
-                {{ post.content | strip_html | truncate:200 }}
-            {% else %}
-                {{ post.content | strip_html | truncate:100 }}
-            {% endif %}
-        </div>
     </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
+   
 </div>
 <hr>
 {% endfor %}
