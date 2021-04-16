@@ -14,5 +14,29 @@ https://github.com/kitian616/jekyll-TeXt-theme
 
 <!-- Main Content -->
 <div class="container">
-    {{ content }}
+    {% for wiki in paginator.wikis %}
+<div class="wiki-preview">
+    <a href="{{ wiki.url | prepend: site.baseurl }}">
+        <h2 class="wiki-title">
+            {{ wiki.title }}
+        </h2>
+        {% if wiki.subtitle %}
+        <h3 class="wiki-subtitle">
+            {{ wiki.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="wiki-content-preview">
+            {% if wiki.lang == 'en' %}
+                {{ wiki.content | strip_html | truncate:200 }}
+            {% else %}
+                {{ wiki.content | strip_html | truncate:100 }}
+            {% endif %}
+        </div>
+    </a>
+    <p class="wiki-meta">
+        Posted by {% if wiki.author %}{{ wiki.author }}{% else %}{{ site.title }}{% endif %} on {{ wiki.date | date: "%B %-d, %Y" }}
+    </p>
+</div>
+<hr>
+{% endfor %}
 </div>
