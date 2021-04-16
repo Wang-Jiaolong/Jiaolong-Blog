@@ -14,9 +14,10 @@ https://github.com/kitian616/jekyll-TeXt-theme
 
 <!-- Main Content -->
 <!-- / .banner -->
-{% for item in site.wiki %}
-  <h2>{{ item.title }}</h2>
-  <p>{{ item.description }}</p>
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+{% for wiki in site.wiki %}
+  <h2>{{ wiki.title }}</h2>
+  <p>{{ wiki.description }}</p>
+  <p><a href="{{ wiki.url }}">{{ wiki.title }}</a></p>
 {% endfor %}
+
     <!-- /section.content -->
