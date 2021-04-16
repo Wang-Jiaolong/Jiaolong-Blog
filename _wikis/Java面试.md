@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "「Java」面试"
-subtitle:   "  Java面试"
+subtitle:   "Java面试"
 author:     "Jalen"
 header-img: "img/about-bg.jpg"
 catalog: true
