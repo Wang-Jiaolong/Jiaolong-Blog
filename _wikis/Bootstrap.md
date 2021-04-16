@@ -1,15 +1,12 @@
 ---
 layout: wiki
-title: "为什么Web项目默认打开「index.jsp」文件"
-subtitle:   "Web项目默认打开'index.jsp'文件"
-author: "Jalen"
-header-img: "img/about-bg.jpg"
-catalog: true
-tags:
-    - JavaWeb
+title: Bootstrap
+categories: Bootstrap
+description: Bootstrap
+keywords: Bootstrap
 ---
 
-# 项目文件目录结构11111
+# 项目文件目录结构
 
 ![image-20210104081826122](https://i.loli.net/2021/01/04/epTuvGYo9KPhgXA.png)
 
