@@ -13,10 +13,12 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     iwangjiaolong
+# weibo_username:     iwangjiaolong
 zhihu_username:     wang-jiaolong
 github_username:    Wang-Jiaolong
 bilibili_username: 239811731
+jike_username: DB74F1FC-514A-44A6-B8BE-D09E27C873E6
+mysite_url: https://jiaolong.space/
 # twitter_username:   Wang-Jiaolong
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
