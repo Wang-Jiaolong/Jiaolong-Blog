@@ -5,6 +5,7 @@ subtitle:   "Java面试"
 author:     "Jalen"
 header-img: "img/about-bg.jpg"
 catalog: true
+header-style: text
 tags:
     - Java
     - 面试题
