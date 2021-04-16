@@ -13,30 +13,28 @@ https://github.com/kitian616/jekyll-TeXt-theme
 {% include intro-header.html type='page' short=true %}
 
 <!-- Main Content -->
-<div class="container">
-    {% for wiki in paginator.wikis %}
-<div class="wiki-preview">
-    <a href="{{ wiki.url | prepend: site.baseurl }}">
-        <h2 class="wiki-title">
-            {{ wiki.title }}
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
         </h2>
-        {% if wiki.subtitle %}
-        <h3 class="wiki-subtitle">
-            {{ wiki.subtitle }}
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
         </h3>
         {% endif %}
-        <div class="wiki-content-preview">
-            {% if wiki.lang == 'en' %}
-                {{ wiki.content | strip_html | truncate:200 }}
+        <div class="post-content-preview">
+            {% if post.lang == 'en' %}
+                {{ post.content | strip_html | truncate:200 }}
             {% else %}
-                {{ wiki.content | strip_html | truncate:100 }}
+                {{ post.content | strip_html | truncate:100 }}
             {% endif %}
         </div>
     </a>
-    <p class="wiki-meta">
-        Posted by {% if wiki.author %}{{ wiki.author }}{% else %}{{ site.title }}{% endif %} on {{ wiki.date | date: "%B %-d, %Y" }}
+    <p class="post-meta">
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
     </p>
 </div>
 <hr>
 {% endfor %}
-</div>
