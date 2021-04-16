@@ -12,12 +12,5 @@ https://github.com/kitian616/jekyll-TeXt-theme
 <!-- Page Header -->
 {% include intro-header.html type='page' short=true %}
 
-<!-- Main Content -->
-<!-- / .banner -->
-{% for wiki in site.wiki %}
-  <h2>{{ wiki.title }}</h2>
-  <p>{{ wiki.description }}</p>
-  <p><a href="{{ wiki.url }}">{{ wiki.title }}</a></p>
-{% endfor %}
 
-    <!-- /section.content -->
+{% include wikis.html %}
