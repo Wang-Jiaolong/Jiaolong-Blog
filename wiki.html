@@ -1,16 +1,38 @@
----
-title: wiki
-layout: default
-description: "「记多少命令行会让脑袋爆炸呢？」"
-header-img: "img/tag-bg.jpg"
----
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
 
-<!-- 
-Credits: this page shamelessly borrowed a lot from:
-https://github.com/kitian616/jekyll-TeXt-theme
--->
-<!-- Page Header -->
-<!-- {% include intro-header.html type='wiki' short=true %} -->
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/the-grid-flexbox@2.0.1/css/the-grid.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+  <!-- <link rel="shortcut icon" href="{{site.url}}{{site.baseurl}}/assets/img/favicon.png"> -->
+<!--   <link rel="icon" href="{{site.url}}{{site.baseurl}}/assets/img/favicon.png"> -->
 
 
-{% include wikis.html %}
+</head>
+
+
+
+<!-- <div class="bg-header">
+  {% include header.html %}
+</div> -->
+
+<div class="content-post">
+  <div class="size margin">
+    {% include wikis.html %}
+  </div>
+</div>
+
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+    <script>
+    AOS.init({
+      once: true
+    });
+
+  </script>
