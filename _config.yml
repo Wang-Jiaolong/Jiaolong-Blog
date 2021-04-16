@@ -93,7 +93,7 @@ featured-condition-size: 3              # A tag will be featured if the size of 
 
 
 collections:
-    wiki:
+    wikis:
         output: true
         permalink: /wiki/:path/
         
