@@ -1,10 +1,168 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-	</head>
-	<body>
-		aaaa
-	</body>
+<html lang="{{ site.language }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/the-grid-flexbox@2.0.1/css/the-grid.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+  <link rel="shortcut icon" href="{{site.url}}{{site.baseurl}}/assets/img/favicon.png">
+  <link rel="icon" href="{{site.url}}{{site.baseurl}}/assets/img/favicon.png">
+
+  <!-- facebook -->
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:image" content="{{site.url}}{{site.baseurl}}/assets/img/image.png" />
+  <meta property="fb:app_id" content="1154262757941899" />
+  <meta property="fb:admins" content="100002787447461" />
+  <!-- facebook -->
+
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:creator" content="{{ site.twitter_username }}">
+  <meta name="twitter:image" content="{{site.url}}{{site.baseurl}}/assets/img/image.png">
+  <meta itemprop="name" content="{{ site.title }}">
+  <meta itemprop="description" content="{{ site.description }}">
+  <meta itemprop="image" content="{{site.url}}{{site.baseurl}}/assets/img/image.png">
+  <!-- twitter -->
+</head>
+<body>
+  <div class="">
+  <div class="menu">
+    <div class="size margin menu--content container align-items-center justify-content-between">
+  
+      <div class="" data-aos="fade-right" data-aos-delay="" data-aos-offset="0">
+        <a href="{{ site.baseurl }}/"><span>Jekyll |</span> {{ site.title }}</a>
+      </div>
+  
+      <a href="https://github.com/gustavoquinalha/jekyll-help-center-theme" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
+        <div class="container align-items-baseline back-to-site">
+          <div class="">
+            <span class="feather-icon icon-external-link"></span>
+          </div>
+          <div class="back-to-site-text">
+            Back to website
+          </div>
+        </div>
+      </a>
+      <!-- <nav class="masthead-nav">
+        {% for page in site.pages %}
+        {% if page.title %}
+        <a href="{{ page.url | prepend: site.baseurl }}">
+          {{ page.title }}
+        </a>
+        {% endif %}
+        {% endfor %}
+      </nav> -->
+    </div>
+  </div>
+  
+
+ <div class="bg-header">
+   <header>
+   
+     <div class="header container align-items-center justify-content-center">
+       <div class="header--block size margin container column">
+         <div class="header--block--text" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+           Advice and answers from the {{ site.title }} Team
+         </div>
+         <div class="container column position-search">
+           <div class="header--block--input" data-aos="fade-up" data-aos-delay="" data-aos-offset="0" id="search-container">
+             <div class="header--block--input--icon">
+               <!-- <img src="{{ site.baseurl }}/assets/img/icons/search-input.svg" width="30" alt=""> -->
+               <span class="feather-icon icon-search"></span>
+             </div>
+             <input class="input-search" type="text" name="" value="" placeholder="Search for answers..." id="search-input">
+           </div>
+           <div class="header--block--result">
+             <ul id="results-container"></ul>
+           </div>
+         </div>
+       </div>
+     </div>
+   
+   
+   </header>
+   
+ </div>
+ 
+ <div class="content-post">
+   <div class="size margin">
+     <div class="">
+       {% if site.wikis.size == 0 %}
+       <h2>No post found</h2>
+       {% else %}
+       
+       {% for post in site.wikis %}
+       <a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+     
+         <div class="list-item-icon container align-items-center justify-content-center">
+           <span class="feather-icon icon-{{post.icon}}" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
+         </div>
+     
+         <div class="flex-grow-1">
+           <div class="" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
+             <h2 class="list-post-title">
+             {{ post.title }}
+             </h2>
+           </div>
+     
+           <div class="" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+             <span class="list-post-description">{{ post.description }}</span>
+           </div>
+     
+           <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+             <small>Written by <span>{{ post.by }}</span>-</small>
+             <small><time>{{ post.date | date_to_string }}</time></small>
+           </div>
+         </div>
+     
+       </a>
+       {% endfor %} {% endif %}
+     </div>
+     
+   </div>
+ </div>
+ 
+
+
+<footer>
+  <div class="footer container column align-items-center justify-content-center">
+    <div class="footer--block text-align-center">
+      <div class="" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
+        <a href="{{ site.baseurl }}/"><span>Jekyll |</span> {{ site.title }}</a>
+      </div>
+      <div class="by" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
+        <a href="https://github.com/gustavoquinalha/jekyll-help-center-theme" target="_blank">Created with jekyll</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
+  
+  <script>
+    AOS.init({
+      once: true
+    });
+
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '{{ site.baseurl }}/search.json'
+    })
+  </script>
+</body>
+
 </html>
