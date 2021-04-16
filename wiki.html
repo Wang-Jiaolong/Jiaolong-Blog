@@ -2,3 +2,9 @@
 layout: page
 description: "「 到底记多少命令行才不会让脑袋爆炸 」"
 ---
+
+{% for item in site.wikis %}
+  <h2>{{ item.title }}</h2>
+  <p>{{ item.description }}</p>
+  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+{% endfor %}
