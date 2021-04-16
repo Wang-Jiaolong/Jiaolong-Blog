@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: post
 title: "为什么Web项目默认打开「index.jsp」文件"
 subtitle:   "Web项目默认打开'index.jsp'文件"
 author: "Jalen"
