@@ -5,6 +5,9 @@ description: "「我干了什么 究竟拿了时间换了什么」"
 header-img: "img/tag-bg.jpg"
 ---
 
+
+{% include intro-header.html type='page' short=true %}
+
 {% for item in site.wikis %}
   <h2>{{ item.title }}</h2>
   <p>{{ item.description }}</p>
