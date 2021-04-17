@@ -14,7 +14,8 @@ header-img: "img/tag-bg.jpg"
        {% else %}
        
        {% for post in site.wikis %}
-       <a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+       <div style="display: block;">
+       	  <a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
      
          <div class="list-item-icon container align-items-center justify-content-center">
            <span class="feather-icon icon-{{post.icon}}" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
@@ -38,6 +39,8 @@ header-img: "img/tag-bg.jpg"
          </div>
      
        </a>
+       </div>>
+     
        {% endfor %} {% endif %}
      </div>
      
