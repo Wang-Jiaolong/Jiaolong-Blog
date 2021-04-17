@@ -2,7 +2,7 @@
 layout: wikis
 title: Bootstrap
 description: Bootstrap
-header-img: "img/about-bg.jpg"
+header-img: "img/page-bg.jpg"
 catalog: true
 ---
 
