@@ -7,7 +7,7 @@ header-img: "img/wiki-bg2.jpg"
 
 
 <div class="content-post" style="    margin-top: -20px;">
-	<div class="size margin" style="width: 700px;">
+	<div class="size margin" style="width: 900px;">
 		<div class="">
 			{% if site.wikis.size == 0 %}
 			<h2>No post found</h2>
@@ -24,7 +24,7 @@ header-img: "img/wiki-bg2.jpg"
 
 
 					<div class="flex-grow-1">
-						<div style="float: left;">
+						<div class="col-sm-4" style="float: left;">
 							<div class="" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
 								<h2 class="list-post-title" style="margin-bottom: 0px;">
 									{{ post.title }}
@@ -33,7 +33,7 @@ header-img: "img/wiki-bg2.jpg"
 
 						</div>
 
-						<div style="float: left;margin-left: 20px;">
+						<div  class="col-sm-8" style="float: left;margin-left: 20px;">
 							<div class="" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0" style="width: 500px;">
 								<span class="list-post-description" style="color: #616161;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;display: block;width: 570px;margin-top: 3px;">
 								{{ post.description }}</span>
