@@ -2,10 +2,10 @@
 layout:     page
 title:      "「Java」面试"
 subtitle:   "Java面试"
+description："demo"
 author:     "Jalen"
 header-img: "img/about-bg.jpg"
 catalog: true
-header-style: text
 tags:
     - Java
     - 面试题
