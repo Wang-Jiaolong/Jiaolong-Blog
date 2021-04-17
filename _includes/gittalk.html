@@ -10,7 +10,7 @@
         repo: 'https://blog.jiaolong.space/',
         owner: 'Wang-Jiaolong',
         admin: ['Wang-Jiaolong'],
-        id:window.location.pathname,
+        id:decodeURI(window.location.pathname)
 
     });
     gitalk.render('gitalk-container');
