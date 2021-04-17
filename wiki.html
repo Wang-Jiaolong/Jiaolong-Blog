@@ -5,73 +5,72 @@ description: "「我干了什么 究竟拿了时间换了什么」"
 header-img: "img/tag-bg.jpg"
 ---
 
- 
- <div class="content-post" style="    margin-top: -20px;">
-   <div class="size margin">
-     <div class="">
-       {% if site.wikis.size == 0 %}
-       <h2>No post found</h2>
-       {% else %}
-       
-       {% for post in site.wikis %}
-       <div style="display: flex">
-       	 <a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="0">
-     
-         <div class="list-item-icon container align-items-center justify-content-center">
-           <span class="feather-icon icon-{{post.icon}}" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
-         </div>
-     
 
-         <div class="flex-grow-1">
-         	<div style="float: left;">
-         		   <div class="" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
-             <h2 class="list-post-title">
-             {{ post.title }}
+<div class="content-post" style="    margin-top: -20px;">
+	<div class="size margin">
+		<div class="">
+			{% if site.wikis.size == 0 %}
+			<h2>No post found</h2>
+			{% else %}
 
-             </h2>
-           </div>
+			{% for post in site.wikis %}
+			<div style="display: flex">
+				<a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0"
+				 data-aos-delay="0">
 
-         	</div>>
-        
-     <div style="float: left;">
-     	 <div class="" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
-             <span class="list-post-description">{{ post.description }}</span>
-           </div>
-     </div>>
-          
-     
-          <!--  <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
+					<div class="list-item-icon container align-items-center justify-content-center">
+						<span class="feather-icon icon-{{post.icon}}" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
+					</div>
+
+
+					<div class="flex-grow-1">
+						<div style="float: left;">
+							<div class="" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
+								<h2 class="list-post-title">
+									{{ post.title }}
+								</h2>
+							</div>
+
+						</div>
+
+						<div style="float: left;">
+							<div class="" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
+								<span class="list-post-description">{{ post.description }}</span>
+							</div>
+						</div>
+
+
+						<!--  <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
              <small>Written by <span>{{ post.author }}</span>-</small>
              <small><time>{{ post.date | date_to_string }}</time></small>
            </div> -->
-         </div>
-     
-       </a>
-       </div>
-      
-       {% endfor %} {% endif %}
-     </div>
-     
-   </div>
- </div>
- 
+					</div>
+
+				</a>
+			</div>
+
+			{% endfor %} {% endif %}
+		</div>
+
+	</div>
+</div>
 
 
-  <!-- <script src="{{ site.baseurl }}/dist/aos.js"></script> -->
-  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+<!-- <script src="{{ site.baseurl }}/dist/aos.js"></script> -->
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
 
-  <script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
-  
-  <script>
-    AOS.init({
-      once: true
-    });
+<script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
 
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '{{ site.baseurl }}/search.json'
-    })
-  </script>
+<script>
+	AOS.init({
+		once: true
+	});
 
+	SimpleJekyllSearch({
+		searchInput: document.getElementById('search-input'),
+		resultsContainer: document.getElementById('results-container'),
+		json: '{{ site.baseurl }}/search.json'
+	})
+</script>
