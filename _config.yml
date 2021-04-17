@@ -134,7 +134,7 @@ friends: [
 gitalk: 
   enable: true 
   owner: Wang-Jiaolong
-  repo: blog-comments 
+  repo: blog-comments
   oauth: 
     clientId: b99130a693ed94800a21
     clientSecret: 181e5b5b8543bf81bc22dccba9698ab8683e2edd
