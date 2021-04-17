@@ -135,3 +135,10 @@ friends: [
     #     href: "http://ingf.github.io/"
     # }
 ]
+
+
+gitalk:
+    owner: Wang-Jiaolong
+    repo: blog-comments
+    clientID: 2e5b70de81f1cd22ba1d
+    clientSecret: 8fbf86a669c2c407833bfdc8840d3946ed0691af
