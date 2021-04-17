@@ -5,6 +5,7 @@ subtitle: "动态sql中单个字符串比较出现异常"
 author: "Jalen"
 header-img: "img/about-bg.jpg"
 catalog: true
+comments: true
 tags:
   - Mybatis
   - SpringBoot
