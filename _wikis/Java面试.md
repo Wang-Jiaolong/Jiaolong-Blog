@@ -6,9 +6,6 @@ description："demo"
 author:     "Jalen"
 header-img: "img/about-bg.jpg"
 catalog: true
-tags:
-    - Java
-    - 面试题
 ---
 
 > Java面试题
