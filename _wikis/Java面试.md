@@ -1,5 +1,5 @@
 ---
-layout:     page
+layout:     wikis
 title:      "「Java」面试"
 subtitle:   "Java面试"
 author:     "Jalen"

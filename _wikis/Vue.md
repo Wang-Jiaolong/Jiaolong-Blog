@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: wikis
 title: Vue
 categories: Vue
 description: Vue

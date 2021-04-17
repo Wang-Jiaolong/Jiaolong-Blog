@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wikis
 title: tk.mybatis
 categories: tk.mybatis
 description: some word here

@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: wikis
 title: Maven
 categories: Maven
 description: Maven

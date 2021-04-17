@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: wikis
 title: Intellij IDEA
 categories: Intellij IDEA
 description: Intellij IDEA

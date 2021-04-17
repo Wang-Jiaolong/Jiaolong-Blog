@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: wikis
 title: SpringBoot
 categories: SpringBoot
 description: SpringBoot

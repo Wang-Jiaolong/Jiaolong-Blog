@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: wikis
 title: Spring
 categories: Spring
 description: Spring

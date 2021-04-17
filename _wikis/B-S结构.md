@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: wikis
 title: B/S
 categories: B/S
 description: B/S

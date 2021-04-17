@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: wikis
 title: Druid
 categories: Druid
 description: Java框架

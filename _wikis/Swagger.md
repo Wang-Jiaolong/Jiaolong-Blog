@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: wikis
 title: Swagger
 categories: Swagger
 description: some word here

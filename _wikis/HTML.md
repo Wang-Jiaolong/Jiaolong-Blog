@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: wikis
 title: HTML
 categories: HTML
 description: HTML

@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: wikis
 title: PageHelper
 categories: [SpringBoot, PageHelper]
 description: PageHelper分页查询

@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: wikis
 title: Jackson
 categories: Java框架
 description: Jackson

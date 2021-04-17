@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: wikis
 title: SpringMVC
 categories: SpringMVC
 description: SpringMVC

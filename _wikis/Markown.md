@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: wikis
 title: Markdown
 categories: Markdown
 description: 一些 Markdown 使用语法

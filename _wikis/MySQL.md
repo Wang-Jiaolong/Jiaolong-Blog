@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: wikis
 title: MySQL
 categories: MySQL
 description: some word here

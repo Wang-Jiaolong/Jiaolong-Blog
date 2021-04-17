@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: wikis
 title: Log4j
 categories: Log4j
 description: Log4j

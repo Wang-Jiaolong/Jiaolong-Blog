@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: wikis
 title: MVC和三层架构
 categories: MVC和三层架构
 description: MVC和三层架构
