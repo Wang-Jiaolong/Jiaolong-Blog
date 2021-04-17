@@ -1,10 +1,9 @@
 ---
 layout: wikis
 title: PageHelper
-categories: [SpringBoot, PageHelper]
-description: PageHelper分页查询
-keywords: PageHelper
-
+description: PageHelper是一个Mybatis的分页插件, 负责将已经写好的sql语句, 进行分页加工。
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
 
 > `PageHelper`是一个Mybatis的分页插件, 负责将已经写好的sql语句, 进行分页加工。官网说法：如果你也在用 MyBatis，建议尝试该分页插件，这一定是最方便使用的分页插件。分页插件支持任何复杂的单表、多表分页。

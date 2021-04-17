@@ -1,9 +1,9 @@
 ---
 layout: wikis
 title: MySQL
-categories: MySQL
-description: some word here
-keywords: MySQL
+description: MySQL 是最流行的关系型数据库管理系统。
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
 
 

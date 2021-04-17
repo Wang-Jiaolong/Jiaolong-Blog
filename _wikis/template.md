@@ -1,9 +1,10 @@
 ---
 layout: wikis
-title: Wiki Template
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+title: Bootstrap
+description: Bootstrap
+header-img: "img/about-bg.jpg"
+catalog: true
+hidden: true
 ---
 
 Content here

@@ -1,9 +1,9 @@
 ---
 layout: wikis
 title: Bootstrap
-categories: Bootstrap
 description: Bootstrap
-keywords: Bootstrap
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
 
 # 项目文件目录结构

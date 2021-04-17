@@ -1,9 +1,9 @@
 ---
 layout: wikis
-title: B/S
-categories: B/S
-description: B/S
-keywords: 
+title:  B/S结构
+description: B/S结构（Browser/Server，浏览器/服务器模式），是WEB兴起后的一种网络结构模式，WEB浏览器是客户端最主要的应用软件。
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
 
 > 摘自`百度百科`

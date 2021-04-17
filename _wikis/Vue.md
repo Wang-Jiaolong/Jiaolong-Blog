@@ -1,16 +1,10 @@
 ---
 layout: wikis
-title: Vue
-categories: Vue
-description: Vue
-keywords: Vue
+title: Vue.js
+description: Vue是一套用于构建用户界面的渐进式JavaScript框架。
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
-
-
-
-
-
-
 
  
 

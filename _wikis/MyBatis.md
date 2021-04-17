@@ -1,9 +1,9 @@
 ---
 layout: wikis
-title: MyBatis
-categories: MyBatis
-description: MyBatis
-keywords: MyBatis
+title:  Mybatis
+description: MyBatis 是一款优秀的持久层框架，它支持定制化 SQL、存储过程以及高级映射。
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
 
 > MyBatis 是一个优秀的基于 Java 的持久层框架，它内部封装了 JDBC，使开发者只需关注 SQL 语句本身，而不用再花费精力去处理诸如注册驱动、创建 Connection、配置 Statement 等繁杂过程。

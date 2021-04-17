@@ -1,9 +1,9 @@
 ---
 layout: wikis
 title: Spring
-categories: Spring
-description: Spring
-keywords: Spring
+description: Spring框架是一个开放源代码的J2EE应用程序框架，由Rod Johnson发起，是针对bean的生命周期进行管理的轻量级容器。
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
 
 > Spring是为了解决企业级因公开发的复杂性而创建的，简化开发

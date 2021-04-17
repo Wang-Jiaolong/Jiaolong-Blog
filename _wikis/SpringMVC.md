@@ -1,9 +1,9 @@
 ---
 layout: wikis
-title: SpringMVC
-categories: SpringMVC
-description: SpringMVC
-keywords: SpringMVC
+title: Spring MVC
+description: Spring MVC 是 Spring 提供给 Web 应用的框架设计。
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
 
 > Spring MVC 也叫 Spring Web MVC ，属于展示层框架。

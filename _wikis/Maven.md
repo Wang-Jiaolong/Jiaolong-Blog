@@ -1,9 +1,9 @@
 ---
 layout: wikis
 title: Maven
-categories: Maven
-description: Maven
-keywords: Maven
+description: Maven项目对象模型(POM)，可以通过一小段描述信息来管理项目的构建，报告和文档的项目管理工具软件。
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
 
 # 一、使用 Maven 构建应用

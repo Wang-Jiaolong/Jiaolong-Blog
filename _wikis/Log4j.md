@@ -1,9 +1,9 @@
 ---
 layout: wikis
 title: Log4j
-categories: Log4j
-description: Log4j
-keywords: Log4j
+description: log4j是一个功能强大的开源日志组件,提供方便的日志记录.
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
 
 

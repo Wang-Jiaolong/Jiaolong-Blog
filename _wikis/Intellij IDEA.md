@@ -1,9 +1,9 @@
 ---
 layout: wikis
-title: Intellij IDEA
-categories: Intellij IDEA
-description: Intellij IDEA
-keywords: Intellij IDEA
+title: IntelliJ IDEA
+description: 一款在业界被公认为最好的java开发工具
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
 
 # 一、快捷键及快速输入

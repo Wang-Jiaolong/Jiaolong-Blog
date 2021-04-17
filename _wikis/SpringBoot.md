@@ -1,9 +1,9 @@
 ---
 layout: wikis
 title: SpringBoot
-categories: SpringBoot
-description: SpringBoot
-keywords: SpringBoot
+description: Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来简化新Spring应用的初始搭建以及开发过程。
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
 
 

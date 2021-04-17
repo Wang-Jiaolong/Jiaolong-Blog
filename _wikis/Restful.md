@@ -1,12 +1,12 @@
 ---
 layout: wikis
-title: RESTful
-categories: RESTful 
-description: RESTful 风格
-keywords: RESTful 
+title: RESTful 
+description: RESTFUL是一种网络应用程序的设计风格和开发方式，基于HTTP，可以使用XML格式定义或JSON格式定义。
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
 
-> RESTful 风格的 API 设计
+> RESTFUL是一种网络应用程序的设计风格和开发方式，基于[HTTP](https://baike.baidu.com/item/HTTP/243074)，可以使用[XML](https://baike.baidu.com/item/XML/86251)格式定义或[JSON](https://baike.baidu.com/item/JSON/2462549)格式定义。RESTFUL适用于移动互联网厂商作为业务接口的场景，实现第三方[OTT](https://baike.baidu.com/item/OTT/9960940)调用移动网络资源的功能，动作类型为新增、变更、删除所调用资源。
 
 ## 版本号
 

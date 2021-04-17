@@ -1,9 +1,9 @@
 ---
 layout: wikis
 title: Druid
-categories: Druid
-description: Java框架
-keywords: Druid、Java框架
+description: Druid是一个为OLAP查询需求而设计的开源大数据系统，Druid提供低延时的数据插入，实时的数据查询。
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
 
 > Druid 是阿里巴巴开源平台上的一个项目，整个项目由数据库连接池、插件框架和 SQL 解析器组成。该项目主要是为了扩展 JDBC 的一些限制，可以让程序员实现一些特殊的需求，比如向密钥服务请求凭证、统计 SQL 信息、SQL 性能收集、SQL 注入检查、SQL 翻译等，程序员可以通过定制来实现自己需要的功能

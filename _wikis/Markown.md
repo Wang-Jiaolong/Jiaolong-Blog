@@ -1,9 +1,9 @@
 ---
 layout: wikis
 title: Markdown
-categories: Markdown
-description: 一些 Markdown 使用语法
-keywords: Markdown
+description: Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
 
 >备用以防自己忘记，最后更新日期：2020-6-17

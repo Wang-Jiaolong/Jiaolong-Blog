@@ -1,9 +1,9 @@
 ---
 layout: wikis
-title: Wiki Template
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+title: Linux
+description: Linux，全称GNU/Linux，是一种免费使用和自由传播的类UNIX操作系统。
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
 
   

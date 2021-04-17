@@ -1,9 +1,9 @@
 ---
 layout: wikis
 title: Thymeleaf
-categories: Thymeleaf
-description: Thymeleaf
-keywords: Thymeleaf
+description: Thymeleaf是一个适用于Web和独立环境的现代服务器端Java模板引擎。
+header-img: "img/about-bg.jpg"
+catalog: true
 ---
 
 > Thymeleaf 是一个跟 Velocity、FreeMarker 类似的模板引擎，它可以完全替代 JSP 。相较与其他的模板引擎，它有如下三个极吸引人的特点
