@@ -1,19 +1,17 @@
 <!-- Link Gitalk 的支持文件  -->
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
-<script type="text/javascript" src="/assets/js/md5.min.js"></script>
-<div id="gitalk-container"></div>     
-<script type="text/javascript">
+<div id="gitalk-container"></div>     <script type="text/javascript">
     var gitalk = new Gitalk({
- 
+
     // gitalk的主要参数
         clientID: '2e5b70de81f1cd22ba1d',
-        clientSecret: '4589df63419d9eba5a4731193c95ace4af154ada',
-        repo: '自己博客的地址',
+        clientSecret: '8fbf86a669c2c407833bfdc8840d3946ed0691af',
+        repo: 'https://blog.jiaolong.space/',
         owner: 'Wang-Jiaolong',
         admin: ['Wang-Jiaolong'],
-        id: md5(location.pathname),
-        
+        id:window.location.pathname,
+
     });
     gitalk.render('gitalk-container');
 </script> 
