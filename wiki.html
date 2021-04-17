@@ -10,6 +10,5 @@ header-img: "img/tag-bg.jpg"
 
 {% for item in site.wikis %}
   <h2>{{ item.title }}</h2>
-  <p>{{ item.description }}</p>
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+  <p>{{ item.description }}</p><a href="{{ item.url }}">{{ item.title }}</a>
 {% endfor %}
