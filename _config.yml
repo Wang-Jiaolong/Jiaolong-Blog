@@ -61,12 +61,6 @@ kramdown:
 
 
 
-# Disqus settings
-disqus_username: wangjiaolong
-
-# Netease settings
-netease_comment: true
-
 
 
 # Analytics settings
@@ -137,8 +131,11 @@ friends: [
 ]
 
 
-gitalk:
-    owner: Wang-Jiaolong
-    repo: blog-comments
-    clientID: b99130a693ed94800a21
+gitalk: 
+  enable: true 
+  owner: Wang-Jiaolong
+  repo: blog-comments 
+  oauth: 
+    clientId: b99130a693ed94800a21
     clientSecret: 181e5b5b8543bf81bc22dccba9698ab8683e2edd
+  admin: Wang-Jiaolong
