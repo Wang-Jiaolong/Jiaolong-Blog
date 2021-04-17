@@ -1,7 +1,7 @@
 ---
 layout: wikis
 title: Bootstrap
-description: Bootstrap
+description: Bootstrap 是快速开发 Web 应用程序的前端工具包。
 header-img: "img/page-bg.jpg"
 catalog: true
 ---
