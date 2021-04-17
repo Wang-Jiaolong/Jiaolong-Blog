@@ -1240,7 +1240,8 @@ img {
 	border-radius: 4px;
 	transition: .3s;
 	overflow: hidden;
-	cursor: pointer
+	cursor: pointer;
+	margin: 10px 0px;
 }
 
 .list-item:last-child {
