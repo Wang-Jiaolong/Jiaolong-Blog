@@ -10,7 +10,7 @@
         repo: 'blog-comments',
         owner: 'Wang-Jiaolong',
         admin: ['Wang-Jiaolong'],
-        id:decodeURI(window.location.pathname),
+        id:decodeURI('{{ page.url }}'),
 
     });
     gitalk.render('gitalk-container');
