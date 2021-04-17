@@ -1265,7 +1265,8 @@ img {
 }
 
 .list-item .list-post-description {
-	font-size: 16px
+	font-size: 12px;
+	font-weight: 400;
 }
 
 .list-item .list-post-written span {
