@@ -21,15 +21,16 @@ header-img: "img/tag-bg.jpg"
            <span class="feather-icon icon-{{post.icon}}" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
          </div>
      
+
          <div class="flex-grow-1">
-           <div class="" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
+           <div class="col-xs-2" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
              <h2 class="list-post-title">
              {{ post.title }}
-              
+
              </h2>
            </div>
      
-           <div class="" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
+           <div class="col-xs-10" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
              <span class="list-post-description">{{ post.description }}</span>
            </div>
      
@@ -50,7 +51,7 @@ header-img: "img/tag-bg.jpg"
  
 
 
-  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="{{ site.baseurl }}/dist/aos.js"></script>
   <script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
   
   <script>
