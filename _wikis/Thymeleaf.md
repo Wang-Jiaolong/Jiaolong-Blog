@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: post
 title: Thymeleaf
 categories: Thymeleaf
 description: Thymeleaf
