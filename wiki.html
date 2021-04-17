@@ -14,6 +14,8 @@ header-img: "img/wiki-bg2.jpg"
 			{% else %}
 
 			{% for post in site.wikis %}
+
+			{% if post.title != 'template' %}
 			<div style="display: flex">
 				<a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0"
 				 data-aos-delay="0">
