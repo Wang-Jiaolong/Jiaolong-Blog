@@ -1226,7 +1226,6 @@ img {
 
 .content-post {
 	min-height: calc(100vh - 480px);
-	background: #f3f5f7;
 	padding-top: 30px;
 	padding-bottom: 30px
 }
