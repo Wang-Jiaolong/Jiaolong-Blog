@@ -138,7 +138,6 @@
 		header.intro-header {
 			position: relative;
 			background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}');
-
 			background: {
 					{
 					page.header-bg-css
@@ -187,12 +186,11 @@
 						{% if include.short %}
 						<div class="site-heading" id="tag-heading">
 							{% else %}
-							<div class="site-heading">
-								{% endif %}
-								<h1>{{ page.title }}</h1>
-								{% comment %} always create a h2 for keeping the margin {% endcomment %}
-								<h2 class="subheading">{{ page.subtitle }}</h2>
-							</div>
+						<div class="site-heading">
+							{% endif %}
+							<h1 style="color: white">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+							<span class="subheading">{{ page.description }}</span>
+						</div>
 						</div>
 					</div>
 				</div>
