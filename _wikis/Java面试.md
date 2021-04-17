@@ -3,7 +3,6 @@ layout:     page
 title:      "「Java」面试"
 subtitle:   "Java面试"
 author:     "Jalen"
-description： "spring 是一个开源的轻量级 JavaBean 容器框架。使用 JavaBean 代替 EJB ，并提供了丰富的企业应用功能，降低应用开发的复杂性。"
 header-img: "img/about-bg.jpg"
 catalog: true
 header-style: text
