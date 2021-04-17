@@ -14,16 +14,16 @@ header-img: "img/tag-bg.jpg"
 			{% else %}
 
 			{% for post in site.wikis %}
-			<div style="display: flex;box-shadow: 3px 3px 4px 4px #00000021;">
+			<div style="display: flex">
 				<a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0"
 				 data-aos-delay="0">
 
 					<div class="list-item-icon container align-items-center justify-content-center">
-						<span class="feather-icon icon-{{post.icon}}" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
+						<span class="feather-icon icon-{{post.icon}}" data-aos="fade-right" data-aos-offset="0" data-aos-delay="200"></span>
 					</div>
 
 
-					<div class="flex-grow-1">
+					<div class="flex-grow-1" style="box-shadow: 3px 3px 4px 4px #00000021;">
 						<div style="float: left;">
 							<div class="" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
 								<h2 class="list-post-title">
