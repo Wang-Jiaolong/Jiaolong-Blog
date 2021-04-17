@@ -8,13 +8,14 @@ header-img: "img/tag-bg.jpg"
  
  <div class="content-post" style="    margin-top: -20px;">
    <div class="size margin">
-     <div class="" style="display: flex">
+     <div class="">
        {% if site.wikis.size == 0 %}
        <h2>No post found</h2>
        {% else %}
        
        {% for post in site.wikis %}
-       <a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
+       <div style="display: flex">
+       	 <a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0" data-aos-delay="100">
      
          <div class="list-item-icon container align-items-center justify-content-center">
            <span class="feather-icon icon-{{post.icon}}" data-aos="fade-right" data-aos-offset="0" data-aos-delay="500"></span>
@@ -38,6 +39,8 @@ header-img: "img/tag-bg.jpg"
          </div>
      
        </a>
+       </div>
+      
        {% endfor %} {% endif %}
      </div>
      
