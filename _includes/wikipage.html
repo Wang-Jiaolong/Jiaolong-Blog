@@ -1,7 +1,12 @@
+{% assign flag='y' %}
+{% for post in site.wikis %}
 {% assign foo = post.title | slice: 0 %}
 {% if foo =='B' %}
+
+{% if flag == 'y' %}
 <h1>B</h1>
-{% for post in site.wikis %}
+{% endif %}
+
 {% if post.title != 'template' %}
 <div style="display: flex">
     <a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up"
@@ -36,6 +41,7 @@
         </div>
     </a>
 </div>
+{% assign flag='n' %}
+{% endif %}
 {% endif %}
 {% endfor %}
-{% endif %}
