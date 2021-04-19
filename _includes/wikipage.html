@@ -1,8 +1,6 @@
 {% assign foo = post.title | slice: 0 %}
 {% if foo =='B' %}
-
 <h1>B</h1>
-{% endif %}
 {% for post in site.wikis %}
 {% if post.title != 'template' %}
 <div style="display: flex">
