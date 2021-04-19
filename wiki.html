@@ -13,19 +13,19 @@ header-img: "img/wiki-bg2.jpg"
 			<h2>No post found</h2>
 			{% else %}
 
-			{% assign flag = 0%}
+			{% assign flag = 'y' %}
 			{% for post in site.wikis %}
 
 
 			{% assign foo = post.title | slice: 0 %}
 			{% if post.title != 'template' %}
 			<!-- //// -->
-			{% flag =0 %}
+			{% flag = 'y' %}
 			{% if foo =='B' or foo =='b' %}
-			{% if flag == 0 %}
+			{% if flag == 'y' %}
 			<h1>B</h1>
 			{% endif %}
-
+			{% flag = 'n' %}
 
 			<div style="display: flex">
 				<a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up"
@@ -66,12 +66,12 @@ header-img: "img/wiki-bg2.jpg"
 
 
 			<!-- //// -->
-			{% flag =0 %}
+			{% flag = 'y' %}
 			{% if foo =='S' or foo =='s' %}
-			{% if flag == 0 %}
+			{% if flag == 'y' %}
 			<h1>S</h1>
 			{% endif %}
-
+			{% flag='y' %}
 
 			<div style="display: flex">
 				<a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up"
