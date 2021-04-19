@@ -5,10 +5,10 @@
 {% assign flag='y' %}
 {% for post in site.wikis %}
 {% assign foo = post.title | slice: 0 %}
-{% if foo == word %}
+{% if foo == include.word %}
 
 {% if flag == 'y' %}
-<h1>{{word}}</h1>
+<h1>{{ include.word }}</h1>
 {% endif %}
 
 {% if post.title != 'template' %}
