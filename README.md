@@ -1,4 +1,4 @@
-[Jalen ‘s Blog]([Jalen的博客 | Jalen 's Blog (jiaolong.space)](https://blog.jiaolong.space/))
+[Jalen的博客 | Jalen 's Blog (jiaolong.space)](https://blog.jiaolong.space/)
 ================================
 
 > 本Blog基于 [Hux Blog](https://huangxuan.me/) 修改，感谢作者，同时也欢迎star我的博客。
