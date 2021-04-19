@@ -1,10 +1,14 @@
+{% comment %}
+@param {string} word
+{% endcomment %}
+
 {% assign flag='y' %}
 {% for post in site.wikis %}
 {% assign foo = post.title | slice: 0 %}
-{% if foo =='B' %}
+{% if foo == word %}
 
 {% if flag == 'y' %}
-<h1>B</h1>
+<h1>{{word}}</h1>
 {% endif %}
 
 {% if post.title != 'template' %}
