@@ -12,10 +12,14 @@ header-img: "img/wiki-bg2.jpg"
 			{% if site.wikis.size == 0 %}
 			<h2>No post found</h2>
 			{% else %}
+			{% assign beatles = "A, B, C, D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" %}
+
+			{% for word in beatles %}
 
 			{% for post in site.wikis %}
 			{% assign foo = post.title | slice: 0  %}
-			{% if foo == 'B'+2 or foo == 'b'+2 %}
+			{% assign bigfoo = foo | capitalize  %}
+			{% if bigfoo == word  %}
 			{% if post.title  != 'template' %}
 			<div style="display: flex">
 				<a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0"
@@ -49,7 +53,9 @@ header-img: "img/wiki-bg2.jpg"
 			</div>
 			{% endif %}
 			{% endif %}
-			{% endfor %} {% endif %}
+			{% endfor %}
+			{% endfor %} 
+			{% endif %}
 		</div>
 
 	</div>
