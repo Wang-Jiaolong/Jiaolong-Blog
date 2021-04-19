@@ -15,7 +15,7 @@ header-img: "img/wiki-bg2.jpg"
 
 			{% for post in site.wikis %}
 			{% assign foo = post.title | slice: 0  %}
-			{% if foo == 'B' or foo == 'b' %}
+			{% if foo == 'B'+2 or foo == 'b'+2 %}
 			{% if post.title  != 'template' %}
 			<div style="display: flex">
 				<a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0"
