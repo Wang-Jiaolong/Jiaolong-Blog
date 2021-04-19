@@ -20,12 +20,12 @@ header-img: "img/wiki-bg2.jpg"
 			{% assign foo = post.title | slice: 0 %}
 			{% if post.title != 'template' %}
 			<!-- //// -->
-			{% flag = 'y' %}
+			{% assign flag = 'y' %}
 			{% if foo =='B' or foo =='b' %}
 			{% if flag == 'y' %}
 			<h1>B</h1>
 			{% endif %}
-			{% flag = 'n' %}
+			{% assign flag = 'n' %}
 
 			<div style="display: flex">
 				<a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up"
@@ -66,12 +66,12 @@ header-img: "img/wiki-bg2.jpg"
 
 
 			<!-- //// -->
-			{% flag = 'y' %}
+			{% assign flag = 'y' %}
 			{% if foo =='S' or foo =='s' %}
 			{% if flag == 'y' %}
 			<h1>S</h1>
 			{% endif %}
-			{% flag='y' %}
+			{% assign flag='y' %}
 
 			<div style="display: flex">
 				<a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up"
