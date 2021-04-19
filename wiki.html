@@ -14,8 +14,8 @@ header-img: "img/wiki-bg2.jpg"
 			{% else %}
 
 			{% for post in site.wikis %}
-
-			{% if post.title != 'template' %}
+			{% if post.title| capitalize | slice: 0 == 'B'%}
+			{% if post.title  != 'template' %}
 			<div style="display: flex">
 				<a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0"
 				 data-aos-delay="0">
@@ -43,12 +43,6 @@ header-img: "img/wiki-bg2.jpg"
 							</div>
 						</div>
 					</div>
-
-
-						<!--  <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
-             <small>Written by <span>{{ post.author }}</span>-</small>
-             <small><time>{{ post.date | date_to_string }}</time></small>
-           </div> -->
 					</div>
 				</a>
 			</div>
