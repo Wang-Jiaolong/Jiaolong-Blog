@@ -13,41 +13,108 @@ header-img: "img/wiki-bg2.jpg"
 			<h2>No post found</h2>
 			{% else %}
 
+			{% assign flag %}
 			{% for post in site.wikis %}
-			{% assign foo = post.title | slice: 0  %}
-			{% if post.title  != 'template' %}
+
+
+			{% assign foo = post.title | slice: 0 %}
+			{% if post.title != 'template' %}
+			<!-- //// -->
+			{% flag =0 %}
+			{% if foo =='B' or foo =='b' %}
+			{% if flag == 0 %}
+			<h1>B</h1>
+			{% endif %}
+
+
 			<div style="display: flex">
-				<a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up" data-aos-offset="0"
-				 data-aos-delay="0">
+				<a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up"
+					data-aos-offset="0" data-aos-delay="0">
 
 					<div class="list-item-icon container align-items-center justify-content-center">
-						<span class="feather-icon icon-{{post.icon}}" data-aos="fade-right" data-aos-offset="0" data-aos-delay="0"></span>
+						<span class="feather-icon icon-{{post.icon}}" data-aos="fade-right" data-aos-offset="0"
+							data-aos-delay="0"></span>
 					</div>
 
 
 					<div class="flex-grow-1">
-						 <div class="row">
-						<div class="col-sm-3">
-							<div class="" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
-								<h2 class="list-post-title" style="margin-bottom: 0px;">
-									{{ post.title }}
-								</h2>
+						<div class="row">
+							<div class="col-sm-3">
+								<div class="" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
+									<h2 class="list-post-title" style="margin-bottom: 0px;">
+										{{ post.title }}
+									</h2>
+								</div>
+
 							</div>
 
-						</div>
-
-						<div  class="col-sm-9" style="margin-left: 20px;">
-							<div class="" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0" style="width: 500px;">
-								<span class="list-post-description" style="color: #616161;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;display: block;width: 820px;margin-top: 3px;">
-								{{ post.description }}</span>
+							<div class="col-sm-9" style="margin-left: 20px;">
+								<div class="" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0"
+									style="width: 500px;">
+									<span class="list-post-description"
+										style="color: #616161;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;display: block;width: 820px;margin-top: 3px;">
+										{{ post.description }}</span>
+								</div>
 							</div>
 						</div>
-					</div>
 					</div>
 				</a>
 			</div>
 			{% endif %}
-			{% endfor %} {% endif %}
+			{% endif %}
+			<!-- //// -->
+
+
+						<!-- //// -->
+						{% flag =0 %}
+						{% if foo =='S' or foo =='s' %}
+						{% if flag == 0 %}
+						<h1>S</h1>
+						{% endif %}
+			
+			
+						<div style="display: flex">
+							<a href="{{ site.baseurl }}{{ post.url }}" class="list-item container" data-aos="fade-up"
+								data-aos-offset="0" data-aos-delay="0">
+			
+								<div class="list-item-icon container align-items-center justify-content-center">
+									<span class="feather-icon icon-{{post.icon}}" data-aos="fade-right" data-aos-offset="0"
+										data-aos-delay="0"></span>
+								</div>
+			
+			
+								<div class="flex-grow-1">
+									<div class="row">
+										<div class="col-sm-3">
+											<div class="" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
+												<h2 class="list-post-title" style="margin-bottom: 0px;">
+													{{ post.title }}
+												</h2>
+											</div>
+			
+										</div>
+			
+										<div class="col-sm-9" style="margin-left: 20px;">
+											<div class="" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0"
+												style="width: 500px;">
+												<span class="list-post-description"
+													style="color: #616161;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;display: block;width: 820px;margin-top: 3px;">
+													{{ post.description }}</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						{% endif %}
+						{% endif %}
+						<!-- //// -->
+
+
+
+
+			{% endfor %}
+			{% endif %}
 		</div>
 
 	</div>
