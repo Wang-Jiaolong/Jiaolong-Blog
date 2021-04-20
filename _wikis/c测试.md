@@ -1,7 +1,7 @@
 ---
 layout: wikis
 title: C测试
-word:C
+word: C
 description: Bootstrap
 header-img: "img/about-bg.jpg"
 catalog: true
