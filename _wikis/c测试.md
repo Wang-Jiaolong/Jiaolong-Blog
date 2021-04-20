@@ -1,6 +1,6 @@
 ---
 layout: wikis
-title: 测试
+title: C测试
 description: Bootstrap
 header-img: "img/about-bg.jpg"
 catalog: true
