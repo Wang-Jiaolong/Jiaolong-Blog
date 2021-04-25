@@ -9,7 +9,15 @@
 
 {% if flag == 'y' %}
 <div class="wordChar">
-	<span class="myfont"  data-aos="fade-up" data-aos-delay="50" data-aos-offset="0"> <i class="fa  fa-stack-1x fa-inverse" >{{ include.word }}</i></span>
+	<!-- <span class="myfont"  data-aos="fade-up" data-aos-delay="50" data-aos-offset="0"> <i class="fa  fa-stack-1x fa-inverse" >{{ include.word }}</i></span> -->
+	  <li>
+    <a target="_blank" href="{{ site.mysite_url }}">
+      <span class="fa-stack fa-lg" style="color: #41228eb3;">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa  fa-stack-1x fa-inverse" >{{ include.word }}</i>
+      </span>
+    </a>
+  </li>
 </div>
 
 {% endif %}
