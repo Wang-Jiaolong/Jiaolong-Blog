@@ -342,7 +342,7 @@
 	flex-wrap: wrap;
 }
 
-@media (max-width: 810){
+@media (max-width: 810px){
 .row {
 	display: -webkit-box;
 	display: -webkit-flex;

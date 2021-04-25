@@ -1276,7 +1276,7 @@ img {
 	margin-top: 3px;
 }
 
-@media (max-width: 810){
+@media (max-width: 810px){
 .list-post-description {
 	
 	display: none;
