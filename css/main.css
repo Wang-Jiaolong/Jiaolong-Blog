@@ -1258,6 +1258,15 @@ img {
 	color: #0081ff
 }
 
+@media (max-width: 810px){
+.list-item .list-post-title {
+	font-size: 22px;
+	transition: .3s;
+	color: #0081ff;
+	text-align: center;
+}
+}
+
 .list-item .list-post-title {
 	font-size: 22px;
 	transition: .3s;
