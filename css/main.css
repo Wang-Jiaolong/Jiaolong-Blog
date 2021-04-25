@@ -1275,7 +1275,7 @@ img {
 
 
 @media (max-width: 810px){
-.list-post-description {
+.list-item .list-post-description {
 	display: none;
 	}
 }
