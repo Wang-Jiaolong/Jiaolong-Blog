@@ -1267,6 +1267,19 @@ img {
 .list-item .list-post-description {
 	font-size: 12px;
 	font-weight: 400;
+	color: #616161;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	width: 820px;
+	margin-top: 3px;
+}
+
+@media (max-width: 810)
+.list-post-description {
+	
+	display: none;
 }
 
 .list-item .list-post-written span {
