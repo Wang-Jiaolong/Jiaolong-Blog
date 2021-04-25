@@ -1268,7 +1268,7 @@ img {
 
 @media (max-width: 810px){
 .list-item .list-post-title {
-	font-size: 22px;
+	font-size: 15px;
 	transition: .3s;
 	color: #0081ff;
 	text-align: center;
@@ -1346,6 +1346,23 @@ img {
 .breadcrumbs a {
 	color: #000
 }
+
+.wordChar{
+text-align: center;
+margin-top: 12px;
+line-height: 10px;
+}
+
+
+
+@media screen and (max-width: 810px) {
+.wordChar{
+text-align: center;
+margin-top: 12px;
+line-height: 10px;
+}
+}
+
 
 
 .wordChar .myfont{
