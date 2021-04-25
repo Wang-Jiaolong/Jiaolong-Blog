@@ -40,9 +40,9 @@
 	flex-wrap: wrap-reverse
 }
 
-.row {
+/*.row {
 	flex-direction: row
-}
+}*/
 
 .row-reverse {
 	flex-direction: row-reverse
