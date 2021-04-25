@@ -1264,6 +1264,13 @@ img {
 	color: #0081ff
 }
 
+
+@media (max-width: 810px){
+.list-post-description {
+	display: none;
+	}
+}
+
 .list-item .list-post-description {
 	font-size: 12px;
 	font-weight: 400;
@@ -1276,12 +1283,6 @@ img {
 	margin-top: 3px;
 }
 
-@media (max-width: 810px){
-.list-post-description {
-	
-	display: none;
-}
-}
 
 
 .list-item .list-post-written span {
