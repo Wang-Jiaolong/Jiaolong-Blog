@@ -1276,11 +1276,13 @@ img {
 	margin-top: 3px;
 }
 
-@media (max-width: 810)
+@media (max-width: 810){
 .list-post-description {
 	
 	display: none;
 }
+}
+
 
 .list-item .list-post-written span {
 	font-weight: bold

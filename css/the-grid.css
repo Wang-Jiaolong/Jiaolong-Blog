@@ -342,7 +342,7 @@
 	flex-wrap: wrap;
 }
 
-@media (max-width: 810)
+@media (max-width: 810){
 .row {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -353,6 +353,8 @@
 	flex-wrap: wrap;
 	justify-content: center;
 }
+}
+
 
 .col {
 	flex-basis: 0;
