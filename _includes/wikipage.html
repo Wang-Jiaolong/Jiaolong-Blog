@@ -8,8 +8,13 @@
 {% if foo == include.word or post.word ==include.word %}
 
 {% if flag == 'y' %}
-<div class="wordChar">
-	<span class="myfont"  data-aos="fade-up" data-aos-delay="50" data-aos-offset="0">{{ include.word }}</span>
+<div class="wordChar" data-aos="fade-up" data-aos-delay="50" data-aos-offset="0">
+	   <a target="_blank" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
+      <span class="fa-stack fa-lg" style="color: #eee;">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa  fa-stack-1x fa-inverse" >{{ include.word }}</i>
+      </span>
+    </a>
 </div>
 
 {% endif %}
