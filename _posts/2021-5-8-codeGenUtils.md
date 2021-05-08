@@ -5,7 +5,6 @@ subtitle:   "用于随机生成n位验证码 "
 author:     "Jalen"
 header-img: "img/about-bg.jpg"
 catalog: true
-excerpt_separator: <!--more-->
 tags:
     - Utils
 ---
