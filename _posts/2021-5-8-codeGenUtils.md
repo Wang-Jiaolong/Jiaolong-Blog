@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "「Utils」J验证码生成工具类"
+title:      "「Utils」验证码生成工具类"
 subtitle:   "用于随机生成n位验证码 "
 author:     "Jalen"
 header-img: "img/about-bg.jpg"
