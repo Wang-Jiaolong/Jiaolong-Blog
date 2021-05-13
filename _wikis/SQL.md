@@ -1,7 +1,7 @@
 ---
 layout: wikis
-title: MySQL
-description: MySQL 是最流行的关系型数据库管理系统。
+title: SQL
+description: sql一般指结构化查询语言。结构化查询语言（Structured Query Language）简称SQL
 header-img: "img/about-bg.jpg"
 catalog: true
 ---
@@ -103,8 +103,6 @@ JOIN 按照功能大致分为如下三类：
 
 
 
-
-
 ## UNION 操作符
 
 > MySQL UNION 操作符用于连接两个以上的 SELECT 语句的结果组合到一个结果集合中。多个 SELECT 语句会删除重复的数据。
@@ -116,3 +114,14 @@ SELECT 列名称 FROM 表名称 UNION ALL SELECT 列名称 FROM 表名称 ORDER 
 
 - **DISTINCT:** 可选，删除结果集中重复的数据。默认情况下 UNION 操作符已经删除了重复数据，所以 DISTINCT 修饰符对结果没啥影响。
 - **ALL:** 可选，返回所有结果集，包含重复数据。
+
+
+
+## 常用操作
+
+### **查询某一列不重复的记录**
+
+```sql
+SELECT * FROM dbo.Member WHERE ID  IN (SELECT MIN(ID) FROM dbo.Member GROUP BY Name)
+```
+
