@@ -545,7 +545,7 @@ pre.highlight {
   padding: 0;
 }
 .highlighter-rouge .highlight table > tbody > tr > td > pre {
-  padding: 14px 0px;
+  padding: 10px 5px;
 }
 .highlighter-rouge .highlight td.rouge-gutter {
   width: 40px;
