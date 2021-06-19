@@ -18,7 +18,9 @@
 		;
 	}
 
-		{% if page.header-mask %}
+		{
+		% if page.header-mask %
+	}
 
 	header.intro-header .header-mask {
 		width: 100%;
@@ -27,19 +29,22 @@
 
 		background: rgba(0, 0, 0, {
 				{
-				page.header-mask}
+				page.header-mask
+			}
 		}
 
 		);
 	}
 
-		{% endif %}
+		{
+		% endif %
+	}
 </style>
 {% if page.header-style == 'text' %}
 <header class="intro-header style-text">
 	{% else %}
 	<header class="intro-header">
-{% endif %}
+		{% endif %}
 		<div class="header-mask"></div>
 		{% if page.header-img-credit %}
 		<div class="header-img-credit">
@@ -64,7 +69,7 @@
 			</div>
 		</div>
 	</header>
-{% endif %}
+	{% endif %}
 
 	{% if include.type == 'keynote' %}
 	<style type="text/css">
@@ -130,56 +135,63 @@
 
 	{% if include.type == 'wiki' %}
 	<style type="text/css">
-	header.intro-header {
-		position: relative;
-		background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}');
-
-		background: {
-				{
-				page.header-bg-css
+		header.intro-header {
+			position: relative;
+			background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}');
+			background: {
+					{
+					page.header-bg-css
+				}
 			}
+
+			;
 		}
 
-		;
-	}
-
-		{% if page.header-mask %}
-
-	header.intro-header .header-mask {
-		width: 100%;
-		height: 100%;
-		position: absolute;
-
-		background: rgba(0, 0, 0, {
-				{
-				page.header-mask}
+			{
+			% if page.header-mask %
 		}
-		);
-	}
 
-		{% endif %}
-</style>
-{% if page.header-style == 'text' %}
-<header class="intro-header style-text">
-	{% else %}
-	<header class="intro-header">
-{% endif %}
-		<div class="header-mask"></div>
-		{% if page.header-img-credit %}
-		<div class="header-img-credit">
-			Image by <a href="//{{page.header-img-credit-href}}">{{page.header-img-credit}}</a>
-		</div>
-		{% endif %}
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-					<div class="post-heading">
-						<h1>{{ page.title }}</h1>
-						{% comment %} always create a h2 for keeping the margin {% endcomment %}
-						<h2 class="subheading">{{ page.subtitle }}</h2>
-					</div>
+		header.intro-header .header-mask {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+
+			background: rgba(0, 0, 0, {
+					{
+					page.header-mask
+				}
+			}
+
+			);
+		}
+
+			{
+			% endif %
+		}
+	</style>
+	{% if page.header-style == 'text' %}
+	<header class="intro-header style-text">
+		{% else %}
+		<header class="intro-header">
+			{% endif %}
+			<div class="header-mask"></div>
+			{% if page.header-img-credit %}
+			<div class="header-img-credit">
+				Image by <a href="//{{page.header-img-credit-href}}">{{page.header-img-credit}}</a>
+			</div>
+			{% endif %}
+			<div class="container">
+				<div class="row" style="justify-content: center;">
+						{% if include.short %}
+						<div class="site-heading" id="tag-heading">
+							{% else %}
+						<div class="site-heading">
+							{% endif %}
+							<h1 style="color: white;font-size: 40px">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+							<span class="subheading">{{ page.description }}</span>
+						</div>
+						</div>
 				</div>
 			</div>
-		</div>
-	</header>
-	{% endif %}
+		</header>
+		{% endif %}
