@@ -18,9 +18,7 @@
 		;
 	}
 
-		{
-		% if page.header-mask %
-	}
+		{% if page.header-mask %}
 
 	header.intro-header .header-mask {
 		width: 100%;
@@ -36,17 +34,7 @@
 		);
 	}
 
-		{
-		% endif %
-	}
-
-
-<% if page.catalogDetail == 'false' %>
-            li.h2_nav,li.h3_nav,li.h4_nav,li.h5_nav,li.h6_nav {
-    display: none;
-}
-<% endif %>
-
+		{% endif %}
 
 </style>
 {% if page.header-style == 'text' %}
@@ -78,6 +66,14 @@
 			</div>
 		</div>
 	</header>
+
+
+<% if page.catalogDetail == 'false' %>
+<style>            li.h2_nav,li.h3_nav,li.h4_nav,li.h5_nav,li.h6_nav {
+    display: none;
+}</style>
+<% endif %>
+
 	{% endif %}
 
 	{% if include.type == 'keynote' %}
