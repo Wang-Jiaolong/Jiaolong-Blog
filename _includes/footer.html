@@ -1,3 +1,6 @@
+{% comment %}
+@param {string} catalogDetail
+{% endcomment %}
 <!-- Footer -->
 <footer>
     <div class="container">
@@ -172,13 +175,7 @@
 
         // init
         var P = $(_containerSelector), a, n, t, l, i, c;
-
-{% if post.catalogDetail == 'false' %}
-
-        a = P.find('h1');
-        {% else %}
-          a = P.find('h1,h2,h3,h4,h5,h6');
-{% endif %}
+         a = P.find('h1,h2,h3,h4,h5,h6');
 
         // clean
         $(selector).html('')
