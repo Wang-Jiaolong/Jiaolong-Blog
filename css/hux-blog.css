@@ -22,7 +22,7 @@
   text-decoration: none;
 }
 .sidebar-container a {
-  color: #bfbfbf !important;
+ /* color: #bfbfbf !important;*/
 }
 .sidebar-container a:hover,
 .sidebar-container a:active {
