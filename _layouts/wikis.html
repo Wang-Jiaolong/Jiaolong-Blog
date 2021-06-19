@@ -48,6 +48,9 @@ layout: default
             </div>
         {% endunless %}
 
+
+
+
     <!-- Sidebar Container -->
 
         </div>
@@ -60,6 +63,14 @@ layout: default
 {% endif %}
 
 
+{% if page.catalogDetail='false' %}
+
+<style>
+li.h2_nav,li.h3_nav,li.h4_nav,li.h5_nav {
+    display: none;
+}
+</style>
+{% endif %}
 
 
 {% if site.anchorjs %}
