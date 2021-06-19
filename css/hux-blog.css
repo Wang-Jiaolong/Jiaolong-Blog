@@ -899,6 +899,7 @@ samp {
 .post-container .anchorjs-link {
   position: absolute;
   text-decoration: none !important;
+  opacity:1;
 }
 @media only screen and (max-width: 767px) {
   /**
