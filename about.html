@@ -22,8 +22,8 @@ multilingual: true
 
 
 <div class="en post-container" style="margin-bottom: 100px;">
-    {% include about/blog.md %}
-    {{ markdownify }}
+    {% capture blog_dev %}{% include about/blog.md %}{% endcapture %}
+    {{ blog_dev | markdownify }}
 </div>
 
 {% include leancloud.html %}
