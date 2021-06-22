@@ -1,6 +1,6 @@
-# Blog修改开发进度
+# About this Blog
 
-## 时间轴
+## TimeLine
 
 - 2021
   - 4.15：使用该Hux作者模板
