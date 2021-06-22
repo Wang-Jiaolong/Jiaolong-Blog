@@ -7,8 +7,8 @@ multilingual: true
 ---
 
 <h3>About me</h3>
-{% include multilingual-sel.html %}
-
+<!-- {% include multilingual-sel.html %}
+ -->
 <!-- Chinese Version -->
 <div class="zh post-container" style="margin-bottom: 100px;">
     {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
@@ -16,10 +16,10 @@ multilingual: true
 </div>
 
 <!-- English Version -->
-<div class="en post-container" style="margin-bottom: 100px;">
+<!-- <div class="en post-container" style="margin-bottom: 100px;">
     {% capture about_en %}{% include about/en.md %}{% endcapture %}
     {{ about_en | markdownify }}
-</div>
+</div> -->
 
 <h3>About this Blog's develop</h3>
 <div class="post-container" style="margin-bottom: 100px;">
