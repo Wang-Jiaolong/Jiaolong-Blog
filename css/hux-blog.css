@@ -792,6 +792,7 @@ samp {
 .post-container h6 {
   margin: 20px 0 10px;
   line-height: 1.4;
+    margin-left: -30px;
 }
 .post-container h1 + p,
 .post-container h2 + p,
