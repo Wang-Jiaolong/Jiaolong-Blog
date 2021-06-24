@@ -52,9 +52,9 @@
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 					<div class="post-heading">
-						<div class="tags" style="color: white">
+						<div class="tags" >
 							{% for tag in page.tags %}
-							<a class="tag" href="{{ site.baseurl }}/archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
+							<a class="tag" style="color: white" href="{{ site.baseurl }}/archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
 							{% endfor %}
 						</div>
 						<h1>{{ page.title }}</h1>
