@@ -25,9 +25,7 @@ layout: default
                     {% include multilingual-sel.html %}
                 {% endif %}
 
-{% raw %}
-{{ content }}
-{% endraw %}
+{{ page.content | xml_escape | markdownify }}
 
 				
 
