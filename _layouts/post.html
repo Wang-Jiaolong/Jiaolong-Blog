@@ -24,8 +24,11 @@ layout: default
                 {% if page.multilingual %}
                     {% include multilingual-sel.html %}
                 {% endif %}
+{% raw %}
+{{ content }}
+{% endraw %}
 
-				{{ content }}
+				
 
                 <hr style="visibility: hidden;">
                 <ul class="pager">
