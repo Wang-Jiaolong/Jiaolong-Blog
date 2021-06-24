@@ -25,7 +25,7 @@ layout: default
                     {% include multilingual-sel.html %}
                 {% endif %}
 
-{{ content | xml_escape | markdownify }}
+{{ page.content | xml_escape | textilize }}
 
 				
 
