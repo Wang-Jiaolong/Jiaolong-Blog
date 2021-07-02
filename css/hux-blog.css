@@ -792,6 +792,7 @@ samp {
 .post-container h6 {
   margin: 20px 0 10px;
   line-height: 1.4;
+    margin-left: -30px;
 }
 .post-container h1 + p,
 .post-container h2 + p,
@@ -803,7 +804,7 @@ samp {
 }
 .post-container h2::before {
   content: " ";
-  display: block;
+  /*display: block;*/
   border-bottom: 1px solid #ececec;
   margin-top: 44px;
   margin-bottom: 30px;
@@ -899,7 +900,7 @@ samp {
 .post-container .anchorjs-link {
   position: absolute;
   text-decoration: none !important;
-  opacity:1;
+  opacity:0;
 }
 @media only screen and (max-width: 767px) {
   /**
@@ -1461,7 +1462,7 @@ img::-moz-selection {
   border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: 999em;
   padding: 0 10px 0 10px;
-  color: #2f2f2f;
+  /*color: #2f2f2f;*/
   line-height: 24px;
   font-size: 12px;
   text-decoration: none;
