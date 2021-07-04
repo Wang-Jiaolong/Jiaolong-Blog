@@ -19,6 +19,16 @@ hidden: false
 
 
 
+# `Text()`
+
+- .lineLimit
+
+  ```swift
+  func lineLimit(_ number: Int?) -> some View
+  ```
+
+  
+
 # `Color`
 
 - `.edgesIgnoringSafeArea(.all)`：安全区域
