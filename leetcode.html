@@ -1,7 +1,7 @@
 ---
-title: Archive
+title: LeetCode
 layout: default
-description: "「我干了什么 究竟拿了时间换了什么」"
+description: "「 无限进步 」"
 header-img: "img/tag-bg.jpg"
 ---
 
@@ -19,12 +19,12 @@ https://github.com/kitian616/jekyll-TeXt-theme
 			<div id='tag_cloud' class="tags tags-sup js-tags">
 				<a class="tag-button--all" data-encode="" style="background-color: #e03b3bb5 !important;">
 					Show All
-					<sup>{{site.posts.size}}</sup>
+					<sup>{{site.leetcodes.size}}</sup>
 				</a>
 
 				{% capture tags %}
 				{% for tag in site.tags %}
-				<a data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
+				<a data-sort="{{ site.leetcodes.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
 					data-encode="{{ tag[0] | strip | url_encode }}"
 					class="tag-button"
 					title="{{ tag[0] }}" rel="{{ tag[1].size }}">
@@ -38,7 +38,7 @@ https://github.com/kitian616/jekyll-TeXt-theme
 
             <!-- Article List -->
 			<div class="mini-post-list js-result d-none">
-			{%- assign _sorted_list = site.posts -%}
+			{%- assign _sorted_list = site.leetcodes -%}
 			{%- assign _sorted_list = _sorted_list | sort: 'date' -%}
 			{%- assign _sorted_list = _sorted_list | reverse -%}
 
