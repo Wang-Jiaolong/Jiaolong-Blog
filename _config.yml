@@ -89,9 +89,6 @@ featured-condition-size: 3             # A tag will be featured if the size of i
 collections:
   wikis:
     output: true   
-
-
-collections:
   leetcodes:
     output: true   
 
