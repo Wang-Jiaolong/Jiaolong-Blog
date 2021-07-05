@@ -90,6 +90,11 @@ collections:
   wikis:
     output: true   
 
+
+collections:
+  leetcodes:
+    output: true   
+
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
