@@ -105,10 +105,11 @@ page-mathjax: false
 
 # Friends
 friends: [
-    # {
-    #     title: "乱序（Midare）",
-    #     href: "http://mida.re/"
-    # },{
+     {
+         title: "我的刷题记录",
+         href: "https://code.jiaolong.space/"
+     }
+    #,{
     #     title: "Sherry Woo",
     #     href: "https://sherrywoo.me/"
     # },{
